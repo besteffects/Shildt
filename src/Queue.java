@@ -1,6 +1,6 @@
 public class Queue {
-    char q[]; //this array holds the queue
-    int putloc, getloc; //the put and get indices
+    private char q[]; //this array holds the queue
+    private int putloc, getloc; //the put and get indices
     //constructor creates a queue of a given size
     Queue (int size){
         q=new char[size]; //allocate memory for queue
