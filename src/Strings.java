@@ -1,6 +1,33 @@
 public class Strings {
-    public static void main(String[] args) {
+    public static void main(String args[]) {
+        //1. Command line arguments
+        //Search for a two-dimensional array for a name from a phone book
+        String numbers[][] = {
+                {"Tom", "555-3322"},
+                {"Mary", "555-8976"},
+                {"Jon", "555-1037"},
+                {"Rachel", "555-1400"}
+        };
+        System.out.println("Args length: " + args.length);
+        int i;
+        if (args.length != 1) {
+            System.out.println("Usage: Java Phone <name>");
+        } else {
+            for (i = 0; i < numbers.length; i++) {
+                if (numbers[i][0].equals(args[0])) {
+                    System.out.println(numbers[i][0] + ": " +
+                            numbers[i][1]);
+                    break;
+                }
+            }
+            if (i == numbers.length) {
+                System.out.println("Name not found.");
+            }
+        }
+        //2.
         substringCreate();
+
+        //3.
         stringSwitch();
 
     }
@@ -34,4 +61,5 @@ public class Strings {
         }
 
     }
+
 }
