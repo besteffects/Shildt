@@ -8,7 +8,7 @@ public class Strings {
                 {"Jon", "555-1037"},
                 {"Rachel", "555-1400"}
         };
-        System.out.println("Args length: "  + args.length);
+        System.out.println("Args length: " + args.length);
         int i;
         if (args.length != 1) {
             System.out.println("Usage: Java Phone <name>");
