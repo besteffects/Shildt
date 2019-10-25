@@ -135,6 +135,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.TernaryOperator" />
+      <item itemvalue="Application.QDemo" />
+      <item itemvalue="Application.Strings" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.TernaryOperator" />
