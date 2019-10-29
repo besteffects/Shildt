@@ -3,6 +3,9 @@ public class Overload {
         byte b = 99;
         short s = 10;
         float f = 11.5F;
+        int i = 10;
+        double d = 10.1;
+
 
         ovlDemo();
         ovlDemo(2);
@@ -13,7 +16,8 @@ public class Overload {
         f(b); // calls to f(int) type conversion
         f(s);// calls to f(int) type conversion
         f(f);// calls to f(double) type conversion
-
+        f(i);
+        f(d);
     }
 
     static void ovlDemo() {
@@ -46,5 +50,10 @@ public class Overload {
     static void f(double x) {
         System.out.println("Inside f(double): " + x);
     }
+
+    static void f(byte x) {
+        System.out.println("Inside f (byte): " + x);
+    }
+
 
 }
