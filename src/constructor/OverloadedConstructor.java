@@ -1,23 +1,25 @@
+package constructor;
+
 class OverloadedConstructor {
     int x;
 
     OverloadedConstructor() {
-        System.out.println("Inside OverloadedConstructor(). ");
+        System.out.println("Inside constructor.OverloadedConstructor(). ");
         x = 0;
     }
 
     OverloadedConstructor(int i) {
-        System.out.println("Inside OverloadedConstructor(int).");
+        System.out.println("Inside constructor.OverloadedConstructor(int).");
         x = i;
     }
 
     OverloadedConstructor(double d) {
-        System.out.println("OverloadedConstructor(double).");
+        System.out.println("constructor.OverloadedConstructor(double).");
         x = (int) d;
     }
 
     OverloadedConstructor(int i, int j) {
-        System.out.println("Inside OverloadedConstructor(int, int).");
+        System.out.println("Inside constructor.OverloadedConstructor(int, int).");
         x = i * j;
     }
 }
