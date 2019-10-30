@@ -1,3 +1,5 @@
+package staticMod;
+
 public class Strings {
     public static void main(String args[]) {
         //1. Command line arguments
