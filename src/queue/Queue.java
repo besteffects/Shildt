@@ -1,4 +1,6 @@
-public class Queue {
+package queue;
+
+class Queue {
     private char q[]; //this array holds the queue
     private int putloc, getloc; //the put and get indices
     //constructor creates a queue of a given size
@@ -10,7 +12,7 @@ public class Queue {
     //put a character into queue
     void put(char ch){
         if (putloc==q.length){
-            System.out.println(" - Queue is full.");
+            System.out.println(" - queue.Queue is full.");
             return;
         }
         q[putloc++]=ch;
@@ -19,7 +21,7 @@ public class Queue {
     // get a character from the queue
     char get(){
         if(getloc==putloc){
-            System.out.println(" - Queue is empty");
+            System.out.println(" - queue.Queue is empty");
             return (char)0;
         }
         return q[getloc++];
