@@ -1,4 +1,4 @@
-package queue2;
+package constructor.queue2;
 
 public class Queue {
     private char q[]; // this array holds the queue
