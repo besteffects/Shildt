@@ -34,7 +34,7 @@ public class Strings {
 
     }
 
-    public static void substringCreate() {
+     static void substringCreate() {
         String orgstr = "Java makes the web move.";
 
         //Construct a substring
@@ -45,7 +45,7 @@ public class Strings {
 
     }
 
-    public static void stringSwitch() {
+     static void stringSwitch() {
         String command = "cancel";
         switch (command) {
             case "connect":
