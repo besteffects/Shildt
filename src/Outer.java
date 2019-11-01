@@ -7,7 +7,6 @@ class Outer {
 
     void analyze() {
         Inner inOb = new Inner();
-
         System.out.println("Minimum: " + inOb.min());
         System.out.println("Maximum: " + inOb.max());
         System.out.println("Average: " + inOb.avg());
@@ -16,32 +15,40 @@ class Outer {
     //This is an inner class.
     class Inner {
         int min() {
-            int m = nums[0];
+            int min = nums[0];
             for (int i = 1; i < nums.length; i++) {
-                if (nums[i] < m) {
-                    m = nums[i];
+                if (nums[i] < min) {
+                    min = nums[i];
 
                 }
             }
-            return m;
+            return min;
         }
 
-        int max(){
-            int m= nums[0];
-            for(int i=1; i<nums.length; i++){
-                if(nums[i]>m){
-                    m=nums[i];
+        int max() {
+            int max = nums[0];
+            for (int i = 1; i < nums.length; i++) {
+                if (nums[i] > max) {
+                    max = nums[i];
                 }
             }
-            return m;
+            return max;
         }
 
-        int avg(){
-            int a=0;
-            for(int i=0; i<nums.length;i++){
-                a+=nums[i];
+        int avg() {
+            int sum = 0;
+            for (int i = 0; i < nums.length; i++) {
+                sum += nums[i];
             }
-            return a/nums.length;
+            return sum / nums.length;
         }
+    }
+}
+
+class NestedClassDemo {
+    public static void main(String[] args) {
+        int x[] = {3, 2, 1, 5, 6, 9, 7, 8};
+        Outer outOb = new Outer(x);
+        outOb.analyze();
     }
 }
