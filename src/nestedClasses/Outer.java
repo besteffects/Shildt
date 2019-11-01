@@ -1,3 +1,5 @@
+package nestedClasses;
+
 class Outer {
     int nums[];
 
