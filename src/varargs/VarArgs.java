@@ -1,3 +1,5 @@
+package varargs;
+
 class VarArgs {
 // vaTest uses a vararg.
 
