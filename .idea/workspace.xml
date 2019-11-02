@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/TwoDShape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/TwoDShape.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,19 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/staticMod/StaticMeth.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
-              <folding>
-                <element signature="e#120#121#0" expanded="true" />
-                <element signature="e#164#165#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/staticMod/StaticDemo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -123,17 +109,35 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/inheritance/TwoDShape.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+            <state relative-caret-position="375">
+              <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
               <folding>
                 <element signature="e#184#185#0" expanded="true" />
                 <element signature="e#315#316#0" expanded="true" />
                 <element signature="e#342#343#0" expanded="true" />
                 <element signature="e#425#426#0" expanded="true" />
                 <element signature="e#641#642#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/inheritance/TwoDShape1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-52">
+              <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+              <folding>
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#272#273#0" expanded="true" />
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#386#387#0" expanded="true" />
+                <element signature="e#495#496#0" expanded="true" />
+                <element signature="e#668#669#0" expanded="true" />
+                <element signature="e#750#751#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -191,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/varargs/VarArgs3.java" />
         <option value="$PROJECT_DIR$/src/x.java" />
         <option value="$PROJECT_DIR$/src/inheritance/TwoDShape.java" />
+        <option value="$PROJECT_DIR$/src/inheritance/TwoDShape1.java" />
       </list>
     </option>
   </component>
@@ -273,7 +278,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Shapes">
+  <component name="RunManager" selected="Application.Shapes2">
     <configuration name="LocalClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nestedClasses.LocalClassDemo" />
       <module name="Java_Shildt" />
@@ -287,15 +292,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestedClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NestedClassDemo" />
+    <configuration name="Shapes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.Shapes" />
       <module name="Java_Shildt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Shapes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.Shapes" />
+    <configuration name="Shapes2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.Shapes2" />
       <module name="Java_Shildt" />
       <extension name="coverage">
         <pattern>
@@ -337,19 +348,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Strings" />
-      <item itemvalue="Application.NestedClassDemo" />
       <item itemvalue="Application.LocalClassDemo" />
       <item itemvalue="Application.VarArgs" />
       <item itemvalue="Application.VarArgs3" />
       <item itemvalue="Application.Shapes" />
+      <item itemvalue="Application.Shapes2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Shapes2" />
         <item itemvalue="Application.Shapes" />
         <item itemvalue="Application.VarArgs3" />
         <item itemvalue="Application.VarArgs" />
         <item itemvalue="Application.LocalClassDemo" />
-        <item itemvalue="Application.NestedClassDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -587,14 +598,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/inheritance/TwoDShape.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        <state relative-caret-position="375">
+          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
           <folding>
             <element signature="e#184#185#0" expanded="true" />
             <element signature="e#315#316#0" expanded="true" />
             <element signature="e#342#343#0" expanded="true" />
             <element signature="e#425#426#0" expanded="true" />
             <element signature="e#641#642#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inheritance/TwoDShape1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
+          <folding>
+            <element signature="e#217#218#0" expanded="true" />
+            <element signature="e#272#273#0" expanded="true" />
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#495#496#0" expanded="true" />
+            <element signature="e#668#669#0" expanded="true" />
+            <element signature="e#750#751#0" expanded="true" />
           </folding>
         </state>
       </provider>
