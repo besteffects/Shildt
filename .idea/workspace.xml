@@ -113,7 +113,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/varargs/VarArgs3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="398">
@@ -122,11 +122,19 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/constructor/OverloadedConstructor.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/inheritance/TwoDShape.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="26" column="6" selection-start-line="26" selection-start-column="6" selection-end-line="26" selection-end-column="6" />
+            <state relative-caret-position="351">
+              <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+              <folding>
+                <element signature="e#110#111#0" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+                <element signature="e#342#343#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -181,6 +189,8 @@
         <option value="$PROJECT_DIR$/src/VarArgs.java" />
         <option value="$PROJECT_DIR$/src/varargs/VarArgs2.java" />
         <option value="$PROJECT_DIR$/src/varargs/VarArgs3.java" />
+        <option value="$PROJECT_DIR$/src/x.java" />
+        <option value="$PROJECT_DIR$/src/inheritance/TwoDShape.java" />
       </list>
     </option>
   </component>
@@ -210,12 +220,6 @@
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
               <item name="Shildt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="nestedClasses" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
@@ -256,7 +260,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.VarArgs3">
+  <component name="RunManager" selected="Application.Shapes">
     <configuration name="LocalClassDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="nestedClasses.LocalClassDemo" />
       <module name="Java_Shildt" />
@@ -277,12 +281,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QSDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="recursion.QSDemo" />
+    <configuration name="Shapes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.Shapes" />
       <module name="Java_Shildt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="recursion.*" />
+          <option name="PATTERN" value="inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -320,19 +324,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Strings" />
-      <item itemvalue="Application.QSDemo" />
       <item itemvalue="Application.NestedClassDemo" />
       <item itemvalue="Application.LocalClassDemo" />
       <item itemvalue="Application.VarArgs" />
       <item itemvalue="Application.VarArgs3" />
+      <item itemvalue="Application.Shapes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Shapes" />
         <item itemvalue="Application.VarArgs3" />
         <item itemvalue="Application.VarArgs" />
         <item itemvalue="Application.LocalClassDemo" />
         <item itemvalue="Application.NestedClassDemo" />
-        <item itemvalue="Application.QSDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -548,10 +552,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/x.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="12" lean-forward="true" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
+          <folding>
+            <element signature="e#43#44#0" expanded="true" />
+            <element signature="e#65#66#0" expanded="true" />
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#122#123#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/varargs/VarArgs3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="398">
           <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inheritance/TwoDShape.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="46" column="42" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="42" />
+          <folding>
+            <element signature="e#110#111#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+            <element signature="e#342#343#0" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
