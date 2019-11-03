@@ -1,5 +1,6 @@
 package inheritance;
 
+//Simple inheritance example
 class TwoDShape {
     double width;
     double height;

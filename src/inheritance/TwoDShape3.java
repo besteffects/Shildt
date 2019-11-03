@@ -1,6 +1,6 @@
 package inheritance;
 
-//Add constructor to TwoDshape
+//Add constructor to TwoDshape (using super)
 class TwoDShape3 {
     private double width;
     private double height;

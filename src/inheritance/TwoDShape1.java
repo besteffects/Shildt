@@ -1,5 +1,6 @@
 package inheritance;
 
+//using getters and setters
 class TwoDShape1 {
     private double width; //these are
     private double height; // now private

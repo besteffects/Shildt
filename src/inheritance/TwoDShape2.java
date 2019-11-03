@@ -1,5 +1,6 @@
 package inheritance;
 
+//gettters and setters. Constructors in subclass
 class TwoDShape2 {
     private double width; //these are
     private double height; // now private
