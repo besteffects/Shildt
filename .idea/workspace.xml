@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/META-INF/Java_Shildt.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/TernaryOperator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Java_Shildt/TernaryOperator.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,18 +22,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/nestedClasses/Outer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="233">
-              <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-              <folding>
-                <element signature="e#98#99#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/nestedClasses/LocalClassDemo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -53,10 +43,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/inheritance/TwoDShape4.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
+            <state relative-caret-position="1530">
               <caret line="102" column="27" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
               <folding>
                 <element signature="e#227#228#0" expanded="true" />
@@ -78,6 +68,15 @@
                 <element signature="e#1510#1511#0" expanded="true" />
                 <element signature="e#1546#1547#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/inheritance/super_access/A.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -235,6 +234,7 @@
         <option value="$PROJECT_DIR$/src/inheritance/TwoDShape2.java" />
         <option value="$PROJECT_DIR$/src/inheritance/TwoDShape.java" />
         <option value="$PROJECT_DIR$/src/inheritance/TwoDShape4.java" />
+        <option value="$PROJECT_DIR$/src/inheritance/super_access/A.java" />
       </list>
     </option>
   </component>
@@ -304,7 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Shape5">
+  <component name="RunManager" selected="Application.UseSuper">
     <configuration name="Shape5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inheritance.Shape5" />
       <module name="Java_Shildt" />
@@ -365,12 +365,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VarArgs3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="varargs.VarArgs3" />
+    <configuration name="UseSuper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.super_access.UseSuper" />
       <module name="Java_Shildt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="varargs.*" />
+          <option name="PATTERN" value="inheritance.super_access.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -380,19 +380,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Strings" />
-      <item itemvalue="Application.VarArgs3" />
       <item itemvalue="Application.Shapes" />
       <item itemvalue="Application.Shapes2" />
       <item itemvalue="Application.Shapes4" />
       <item itemvalue="Application.Shape5" />
+      <item itemvalue="Application.UseSuper" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UseSuper" />
         <item itemvalue="Application.Shape5" />
         <item itemvalue="Application.Shapes4" />
         <item itemvalue="Application.Shapes2" />
         <item itemvalue="Application.Shapes" />
-        <item itemvalue="Application.VarArgs3" />
       </list>
     </recent_temporary>
   </component>
@@ -733,7 +733,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/inheritance/TwoDShape4.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
+        <state relative-caret-position="1530">
           <caret line="102" column="27" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
           <folding>
             <element signature="e#227#228#0" expanded="true" />
@@ -755,6 +755,13 @@
             <element signature="e#1510#1511#0" expanded="true" />
             <element signature="e#1546#1547#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inheritance/super_access/A.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
         </state>
       </provider>
     </entry>
