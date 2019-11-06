@@ -59,7 +59,7 @@ class Triangle5 extends TwoDShape5{
         style="filled";
     }
 
-    //Construct an object from an object
+    //Construct an object from an object (superclass reference can refer to a subclass object)
     Triangle5(Triangle5 ob){
         super(ob);
         style=ob.style;
