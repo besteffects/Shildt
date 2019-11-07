@@ -139,6 +139,8 @@ class Rectangle2 extends TwoDShape6 {
 
 class DynShapes {
     public static void main(String[] args) {
+        //superclass reference refers to subclasses objects!
+        
         TwoDShape6 shapes[] = new TwoDShape6[5];
         shapes[0] = new Triangle6("outlined", 8.0, 12.0);
         shapes[1] = new Rectangle2(10);
