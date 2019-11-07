@@ -1,5 +1,8 @@
 package inheritance;
-
+/*
+Taking an object of the class as the parameter. This allows class to construct a copy
+of an object
+ */
 class TwoDShape5 {
 private double width;
 private double height;
