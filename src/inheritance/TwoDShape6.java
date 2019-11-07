@@ -54,7 +54,7 @@ class TwoDShape6 {
     }
 
     void showDim() {
-        System.out.println("Width and height are: " + width + height);
+        System.out.println("Width and height are: " + width + " and " + height);
     }
 
     //an area method defined by TwoDShape
@@ -109,6 +109,11 @@ class Rectangle2 extends TwoDShape6 {
         super();
     }
 
+    //Constructor for Rectangle.
+    Rectangle2(double w, double h) {
+        super(w, h, "rectangle");
+    }
+
     //Construct a square.
     Rectangle2(double x) {
         super(x, "rectangle"); // call superclass constructor
@@ -135,15 +140,15 @@ class Rectangle2 extends TwoDShape6 {
 class DynShapes {
     public static void main(String[] args) {
         TwoDShape6 shapes[] = new TwoDShape6[5];
-        shapes[0] = new Triangle6("outlined", 8.0,12.0);
-        shapes[1]= new Rectangle2(10);
-        shapes[2]= new Rectangle2(10.4);
-        shapes[3]= new Triangle6(7.0);
-        shapes[4] = new TwoDShape6(10,20, "generic");
+        shapes[0] = new Triangle6("outlined", 8.0, 12.0);
+        shapes[1] = new Rectangle2(10);
+        shapes[2] = new Rectangle2(10, 4);
+        shapes[3] = new Triangle6(7.0);
+        shapes[4] = new TwoDShape6(10, 20, "generic");
 
-        for (int i=0; i<shapes.length;i++){
+        for (int i = 0; i < shapes.length; i++) {
             System.out.println("object is " + shapes[i].getName());
-            System.out.println("Area is " +shapes[i].area());
+            System.out.println("Area is " + shapes[i].area());
             System.out.println();
         }
 
