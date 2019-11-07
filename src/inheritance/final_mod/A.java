@@ -1,6 +1,6 @@
 package inheritance.final_mod;
 
-//final prevents overriding
+//final prevents overriding and inheritance
 class A {
     final void meth() {
         System.out.println("This is final method");
