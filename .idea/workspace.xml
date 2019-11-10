@@ -2,8 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/inheritance/interfaces/queue/ICharQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/inheritance/interfaces/queue/IQDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/Arguments$ObjectReference.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/Arguments.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/Block.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/META-INF/Java_Shildt.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/PassOb.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/TernaryOperator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/constructor/OverloadedConstructor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/constructor/OverloadedConstructorDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/nestedClasses/NestedClassDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/nestedClasses/Outer$Inner.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/nestedClasses/Outer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/queue/QDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/queue/Queue.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/staticMod/SDemo2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/staticMod/StaticMeth.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,24 +35,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/inheritance/final_mod/ErrorMsg.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="35" selection-start-line="29" selection-start-column="35" selection-end-line="29" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/bookpackext/useBook.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="74" selection-start-line="7" selection-start-column="74" selection-end-line="7" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/bookpack/Book.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/ByTwos.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="192">
-              <caret line="13" column="17" lean-forward="true" selection-end-line="46" />
+              <caret line="13" column="17" selection-end-line="46" />
               <folding>
                 <element signature="e#318#319#0" expanded="true" />
                 <element signature="e#345#346#0" expanded="true" />
@@ -104,7 +101,7 @@
         <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/ByThrees.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="240">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+              <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
               <folding>
                 <element signature="e#280#281#0" expanded="true" />
               </folding>
@@ -112,11 +109,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/queue/ICharQ.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+              <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/queue/IQDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -157,8 +163,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/QueueDemo2.java" />
-        <option value="$PROJECT_DIR$/src/queue2/Queue.java" />
         <option value="$PROJECT_DIR$/src/constructor/queue2/Queue.java" />
         <option value="$PROJECT_DIR$/src/recursion/Factorial.java" />
         <option value="$PROJECT_DIR$/src/StaticDemo.java" />
@@ -208,6 +212,8 @@
         <option value="$PROJECT_DIR$/src/inheritance/interfaces/ByTrees.java" />
         <option value="$PROJECT_DIR$/src/inheritance/interfaces/ByThrees.java" />
         <option value="$PROJECT_DIR$/src/inheritance/interfaces/queue/ICharQ.java" />
+        <option value="$PROJECT_DIR$/src/inheritance/interfaces/queue/FixedQueue.java" />
+        <option value="$PROJECT_DIR$/src/inheritance/interfaces/queue/IQDemo.java" />
       </list>
     </option>
   </component>
@@ -259,14 +265,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="inheritance" type="462c0819:PsiDirectoryNode" />
               <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="inheritance" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
@@ -422,7 +420,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32867134" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.33566433" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33566433" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -430,7 +428,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32867134" />
+      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32867134" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -478,20 +476,6 @@
     <SUITE FILE_PATH="coverage/Java_Shildt$OverloadedConstructorDemo.ic" NAME="OverloadedConstructorDemo Coverage Results" MODIFIED="1572330990892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Block.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Arguments.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="16" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Overload.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -964,7 +948,7 @@
     <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/ByTwos.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="13" column="17" lean-forward="true" selection-end-line="46" />
+          <caret line="13" column="17" selection-end-line="46" />
           <folding>
             <element signature="e#318#319#0" expanded="true" />
             <element signature="e#345#346#0" expanded="true" />
@@ -992,17 +976,31 @@
     <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/ByThrees.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+          <caret line="16" column="25" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
           <folding>
             <element signature="e#280#281#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/queue/FixedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="23" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/queue/ICharQ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/queue/IQDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
         </state>
       </provider>
     </entry>
