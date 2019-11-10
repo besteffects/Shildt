@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/inheritance/interfaces/constants/IConst.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/interfaces/queue/IQDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/interfaces/queue/IQDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,11 +97,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/queue/ICharQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="23" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="23" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/constants/IConst.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -129,8 +138,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -143,6 +152,7 @@
     </replaceStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/src</dir>
+      <dir>$PROJECT_DIR$/src/inheritance/interfaces/constants</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -151,8 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/constructor/queue2/Queue.java" />
-        <option value="$PROJECT_DIR$/src/recursion/Factorial.java" />
         <option value="$PROJECT_DIR$/src/StaticDemo.java" />
         <option value="$PROJECT_DIR$/src/StaticMeth.java" />
         <option value="$PROJECT_DIR$/src/staticMod/Strings.java" />
@@ -202,6 +210,8 @@
         <option value="$PROJECT_DIR$/src/inheritance/interfaces/queue/ICharQ.java" />
         <option value="$PROJECT_DIR$/src/inheritance/interfaces/queue/FixedQueue.java" />
         <option value="$PROJECT_DIR$/src/inheritance/interfaces/queue/IQDemo.java" />
+        <option value="$PROJECT_DIR$/src/inheritance/interfaces/constants/ICinst.java" />
+        <option value="$PROJECT_DIR$/src/inheritance/interfaces/constants/IConst.java" />
       </list>
     </option>
   </component>
@@ -253,7 +263,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="inheritance" type="462c0819:PsiDirectoryNode" />
               <item name="interfaces" type="462c0819:PsiDirectoryNode" />
-              <item name="queue" type="462c0819:PsiDirectoryNode" />
+              <item name="constants" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
@@ -297,13 +307,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IQDemo">
-    <configuration name="AbsShape" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.abstractClasses.AbsShape" />
+  <component name="RunManager" selected="Application.IConstD">
+    <configuration name="IConstD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.interfaces.constants.IConstD" />
       <module name="Java_Shildt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="inheritance.abstractClasses.*" />
+          <option name="PATTERN" value="inheritance.interfaces.constants.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -373,19 +383,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Strings" />
-      <item itemvalue="Application.AbsShape" />
       <item itemvalue="Application.useBook" />
       <item itemvalue="Application.ProtectDemo" />
       <item itemvalue="Application.SeriesDemo1" />
       <item itemvalue="Application.IQDemo" />
+      <item itemvalue="Application.IConstD" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IConstD" />
         <item itemvalue="Application.IQDemo" />
         <item itemvalue="Application.SeriesDemo1" />
         <item itemvalue="Application.ProtectDemo" />
         <item itemvalue="Application.useBook" />
-        <item itemvalue="Application.AbsShape" />
       </list>
     </recent_temporary>
   </component>
@@ -471,20 +481,6 @@
     <SUITE FILE_PATH="coverage/Java_Shildt$OverloadedConstructorDemo.ic" NAME="OverloadedConstructorDemo Coverage Results" MODIFIED="1572330990892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Overload.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-          <folding>
-            <element signature="e#566#567#0" expanded="true" />
-            <element signature="e#657#658#0" expanded="true" />
-            <element signature="e#1270#1271#0" expanded="true" />
-            <element signature="e#1361#1362#0" expanded="true" />
-            <element signature="e#1449#1450#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/constructor/Summation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -994,8 +990,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/queue/ICharQ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="23" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/constants/IConst.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
