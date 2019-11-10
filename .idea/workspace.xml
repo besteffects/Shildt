@@ -2,23 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/inheritance/interfaces/queue/IQDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/Arguments$ObjectReference.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/Arguments.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/Block.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/META-INF/Java_Shildt.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/PassOb.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/TernaryOperator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/constructor/OverloadedConstructor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/constructor/OverloadedConstructorDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/nestedClasses/NestedClassDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/nestedClasses/Outer$Inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/nestedClasses/Outer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/queue/QDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/queue/Queue.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/staticMod/SDemo2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/staticMod/StaticMeth.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inheritance/interfaces/queue/IQDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/interfaces/queue/IQDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -121,8 +105,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/queue/IQDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+            <state relative-caret-position="340">
+              <caret line="39" column="19" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -130,8 +114,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/Series.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+            <state relative-caret-position="105">
+              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -265,6 +249,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="inheritance" type="462c0819:PsiDirectoryNode" />
               <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="inheritance" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="inheritance" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+              <item name="IQDemo.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
@@ -411,7 +412,7 @@
     <frame x="0" y="23" width="1440" height="807" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17310444" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17310444" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -428,7 +429,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.32867134" />
+      <window_info active="true" anchor="bottom" id="Messages" order="10" visible="true" weight="0.32867134" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -966,13 +967,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/Series.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="47" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/ByThrees.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -990,6 +984,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/Series.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/queue/ICharQ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -999,8 +1000,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/queue/IQDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="2" lean-forward="true" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
+        <state relative-caret-position="340">
+          <caret line="39" column="19" selection-start-line="39" selection-start-column="6" selection-end-line="39" selection-end-column="19" />
         </state>
       </provider>
     </entry>
