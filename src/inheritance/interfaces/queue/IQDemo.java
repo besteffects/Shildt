@@ -1,6 +1,11 @@
 package inheritance.interfaces.queue;
 
 class IQDemo {
+    public static void main(String[] args) {
+        FixedQueue q1= new FixedQueue(10);
+        DynQueue q2 = new DynQueue(5);
+        CircularQueue q3 = new CircularQueue(10);
+    }
 
 }
 
@@ -112,3 +117,4 @@ class DynQueue implements ICharQ {
         return q[getLoc++];
     }
 }
+
