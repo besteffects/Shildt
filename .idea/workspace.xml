@@ -114,11 +114,13 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/defaultMethods/MyIF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="38" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="38" />
+            <state relative-caret-position="550">
+              <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
               <folding>
                 <element signature="e#334#335#0" expanded="true" />
                 <element signature="e#534#535#0" expanded="true" />
+                <element signature="e#704#705#0" expanded="true" />
+                <element signature="e#760#761#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -317,7 +319,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IConstD">
+  <component name="RunManager" selected="Application.DefaultMethodDemo">
+    <configuration name="DefaultMethodDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.interfaces.defaultMethods.DefaultMethodDemo" />
+      <module name="Java_Shildt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inheritance.interfaces.defaultMethods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IConstD" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inheritance.interfaces.constants.IConstD" />
       <module name="Java_Shildt" />
@@ -378,34 +393,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="useBook" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="bookpackext.useBook" />
-      <module name="Java_Shildt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="bookpackext.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Strings" />
-      <item itemvalue="Application.useBook" />
       <item itemvalue="Application.ProtectDemo" />
       <item itemvalue="Application.SeriesDemo1" />
       <item itemvalue="Application.IQDemo" />
       <item itemvalue="Application.IConstD" />
+      <item itemvalue="Application.DefaultMethodDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DefaultMethodDemo" />
         <item itemvalue="Application.IConstD" />
         <item itemvalue="Application.IQDemo" />
         <item itemvalue="Application.SeriesDemo1" />
         <item itemvalue="Application.ProtectDemo" />
-        <item itemvalue="Application.useBook" />
       </list>
     </recent_temporary>
   </component>
@@ -426,7 +428,7 @@
     <frame x="0" y="23" width="1440" height="807" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.17310444" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.17310444" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -435,7 +437,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50208336" side_tool="true" weight="0.17310444" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.25314686" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33566433" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.11608391" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1016,11 +1018,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/defaultMethods/MyIF.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="38" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="38" />
+        <state relative-caret-position="550">
+          <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
           <folding>
             <element signature="e#334#335#0" expanded="true" />
             <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#704#705#0" expanded="true" />
+            <element signature="e#760#761#0" expanded="true" />
           </folding>
         </state>
       </provider>

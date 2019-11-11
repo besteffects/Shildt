@@ -19,6 +19,17 @@ class MyIFImp implements MyIF {
     }
 }
 
+class MyIFImp2 implements MyIF {
+    //Here, implementations for both getUserID() and getAdminID() are provided
+    public int getUserID() {
+        return 100;
+    }
+
+    public int getAdminID() {
+        return 42;
+    }
+}
+
 //Use the default method
 class DefaultMethodDemo {
     public static void main(String[] args) {
@@ -29,5 +40,10 @@ class DefaultMethodDemo {
 
         //Can also call getAdminID(), because of default implementation
         System.out.println("Administrator ID is " + obj.getAdminID());
+
+        MyIFImp2 obj1 = new MyIFImp2();
+
+        System.out.println("User ID2 is " + obj1.getUserID());
+        System.out.println("Administrator ID2 is " + obj1.getAdminID());
     }
 }
