@@ -9,6 +9,11 @@ public interface MyIF {
     default int getAdminID() {
         return 1;
     }
+
+    //This is static interface method.
+    static int getUniversalID(){
+        return 0;
+    }
 }
 
 class MyIFImp implements MyIF {
@@ -45,5 +50,7 @@ class DefaultMethodDemo {
 
         System.out.println("User ID2 is " + obj1.getUserID());
         System.out.println("Administrator ID2 is " + obj1.getAdminID());
+
+        int UID =MyIF.getUniversalID(); //static method. No need to create instance variable
     }
 }

@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/inheritance/interfaces/Series1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/interfaces/ByTwos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/interfaces/ByTwos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/inheritance/interfaces/ByTwos1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/interfaces/ByTwos1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/inheritance/interfaces/defaultMethods/MyIF.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/inheritance/interfaces/defaultMethods/MyIF.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -95,22 +92,24 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/defaultMethods/MyIF.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="550">
-              <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
+            <state relative-caret-position="382">
+              <caret line="53" column="92" selection-start-line="53" selection-start-column="92" selection-end-line="53" selection-end-column="92" />
               <folding>
                 <element signature="e#334#335#0" expanded="true" />
-                <element signature="e#534#535#0" expanded="true" />
-                <element signature="e#704#705#0" expanded="true" />
-                <element signature="e#760#761#0" expanded="true" />
+                <element signature="e#411#412#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#635#636#0" expanded="true" />
+                <element signature="e#805#806#0" expanded="true" />
+                <element signature="e#861#862#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/Series1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
@@ -213,10 +212,10 @@
         <option value="$PROJECT_DIR$/src/inheritance/interfaces/constants/ICinst.java" />
         <option value="$PROJECT_DIR$/src/inheritance/interfaces/constants/IConst.java" />
         <option value="$PROJECT_DIR$/src/inheritance/interfaces/inheritance/A.java" />
-        <option value="$PROJECT_DIR$/src/inheritance/interfaces/defaultMethods/MyIF.java" />
         <option value="$PROJECT_DIR$/src/inheritance/interfaces/defaultMethods/seriesClassWithDefault/Series.java" />
         <option value="$PROJECT_DIR$/src/inheritance/interfaces/defaultMethods/seriesClassWithDefault/Series1.java" />
         <option value="$PROJECT_DIR$/src/inheritance/interfaces/Series1.java" />
+        <option value="$PROJECT_DIR$/src/inheritance/interfaces/defaultMethods/MyIF.java" />
       </list>
     </option>
   </component>
@@ -269,6 +268,15 @@
               <item name="inheritance" type="462c0819:PsiDirectoryNode" />
               <item name="interfaces" type="462c0819:PsiDirectoryNode" />
               <item name="defaultMethods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="inheritance" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="defaultMethods" type="462c0819:PsiDirectoryNode" />
+              <item name="MyIF.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
@@ -995,19 +1003,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/defaultMethods/MyIF.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="46" column="46" selection-start-line="46" selection-start-column="46" selection-end-line="46" selection-end-column="46" />
-          <folding>
-            <element signature="e#334#335#0" expanded="true" />
-            <element signature="e#534#535#0" expanded="true" />
-            <element signature="e#704#705#0" expanded="true" />
-            <element signature="e#760#761#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/Series.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1019,6 +1014,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="32" lean-forward="true" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/defaultMethods/MyIF.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="53" column="92" selection-start-line="53" selection-start-column="92" selection-end-line="53" selection-end-column="92" />
+          <folding>
+            <element signature="e#334#335#0" expanded="true" />
+            <element signature="e#411#412#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#635#636#0" expanded="true" />
+            <element signature="e#805#806#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
