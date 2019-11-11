@@ -1,5 +1,5 @@
 package inheritance.interfaces;
-//Implement Series and add getPrevious
+//Implement Series1 and add getPrevious
 
 class ByTwos1 implements Series {
     int start;

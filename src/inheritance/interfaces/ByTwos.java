@@ -1,5 +1,5 @@
 package inheritance.interfaces;
-//Implement Series.
+//Implement Series1.
 
 class ByTwos implements Series {
     int start;
