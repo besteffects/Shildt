@@ -1,4 +1,4 @@
-package inheritance.exceptions;
+package exceptions;
 //Demonstrate exception handling
 
 class ExcDemo1 {
