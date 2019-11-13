@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exceptions/NestTrys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/ThrowDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -101,7 +101,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exceptions/NestTrys.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="330">
@@ -110,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/Series.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exceptions/ThrowDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+            <state relative-caret-position="60">
+              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -148,7 +148,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/inheritance/TwoDShape3.java" />
         <option value="$PROJECT_DIR$/src/inheritance/TwoDShape1.java" />
         <option value="$PROJECT_DIR$/src/inheritance/TwoDShape2.java" />
         <option value="$PROJECT_DIR$/src/inheritance/TwoDShape4.java" />
@@ -199,6 +198,7 @@
         <option value="$PROJECT_DIR$/src/exceptions/ExcDemo4.java" />
         <option value="$PROJECT_DIR$/src/exceptions/ExcDemo5.java" />
         <option value="$PROJECT_DIR$/src/exceptions/NestTrys.java" />
+        <option value="$PROJECT_DIR$/src/exceptions/ThrowDemo.java" />
       </list>
     </option>
   </component>
@@ -447,16 +447,6 @@
     <SUITE FILE_PATH="coverage/Java_Shildt$OverloadedConstructorDemo.ic" NAME="OverloadedConstructorDemo Coverage Results" MODIFIED="1572330990892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/nestedClasses/Outer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="233">
-          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-          <folding>
-            <element signature="e#98#99#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/nestedClasses/LocalClassDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -970,6 +960,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
           <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exceptions/ThrowDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
         </state>
       </provider>
     </entry>
