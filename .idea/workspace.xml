@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exceptions/ThrowDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/Rethrow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/ThrowDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/ThrowDemo.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,18 +24,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/ByTwos1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="32" column="20" selection-start-line="32" selection-start-column="20" selection-end-line="32" selection-end-column="20" />
-              <folding>
-                <element signature="e#544#545#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/Series2.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,11 +99,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exceptions/ThrowDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+            <state relative-caret-position="105">
+              <caret line="7" column="90" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exceptions/Rethrow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7">
+              <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -148,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/inheritance/TwoDShape1.java" />
         <option value="$PROJECT_DIR$/src/inheritance/TwoDShape2.java" />
         <option value="$PROJECT_DIR$/src/inheritance/TwoDShape4.java" />
         <option value="$PROJECT_DIR$/src/inheritance/super_access/A.java" />
@@ -199,6 +196,7 @@
         <option value="$PROJECT_DIR$/src/exceptions/ExcDemo5.java" />
         <option value="$PROJECT_DIR$/src/exceptions/NestTrys.java" />
         <option value="$PROJECT_DIR$/src/exceptions/ThrowDemo.java" />
+        <option value="$PROJECT_DIR$/src/exceptions/Rethrow.java" />
       </list>
     </option>
   </component>
@@ -273,20 +271,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NestTrys">
-    <configuration name="ExcDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.ExcDemo3" />
-      <module name="Java_Shildt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RethrowDemo">
     <configuration name="ExcDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptions.ExcDemo4" />
       <module name="Java_Shildt" />
@@ -313,8 +298,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ExcTypeMismatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.ExcTypeMismatch" />
+    <configuration name="NestTrys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.NestTrys" />
       <module name="Java_Shildt" />
       <extension name="coverage">
         <pattern>
@@ -326,8 +311,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestTrys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.NestTrys" />
+    <configuration name="RethrowDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.RethrowDemo" />
       <module name="Java_Shildt" />
       <extension name="coverage">
         <pattern>
@@ -347,21 +332,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ThrowDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.ThrowDemo" />
+      <module name="Java_Shildt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Strings" />
-      <item itemvalue="Application.ExcTypeMismatch" />
-      <item itemvalue="Application.ExcDemo3" />
       <item itemvalue="Application.ExcDemo4" />
       <item itemvalue="Application.ExcDemo5" />
       <item itemvalue="Application.NestTrys" />
+      <item itemvalue="Application.ThrowDemo" />
+      <item itemvalue="Application.RethrowDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RethrowDemo" />
+        <item itemvalue="Application.ThrowDemo" />
         <item itemvalue="Application.NestTrys" />
         <item itemvalue="Application.ExcDemo5" />
         <item itemvalue="Application.ExcDemo4" />
-        <item itemvalue="Application.ExcDemo3" />
-        <item itemvalue="Application.ExcTypeMismatch" />
       </list>
     </recent_temporary>
   </component>
@@ -382,7 +380,7 @@
     <frame x="0" y="23" width="1440" height="807" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.2446352" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.2446352" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -391,7 +389,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50208336" side_tool="true" weight="0.17310444" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.25314686" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34265736" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.34265736" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -447,16 +445,6 @@
     <SUITE FILE_PATH="coverage/Java_Shildt$OverloadedConstructorDemo.ic" NAME="OverloadedConstructorDemo Coverage Results" MODIFIED="1572330990892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/nestedClasses/LocalClassDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding>
-            <element signature="e#221#222#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/varargs/VarArgs2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -965,8 +953,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exceptions/ThrowDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
+        <state relative-caret-position="105">
+          <caret line="7" column="90" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exceptions/Rethrow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
         </state>
       </provider>
     </entry>

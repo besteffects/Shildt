@@ -5,7 +5,7 @@ class ThrowDemo {
     public static void main(String[] args) {
         try {
             System.out.println("Before throw. ");
-            throw new ArithmeticException(); //throw an exception
+            throw new ArithmeticException(); //throw an exception (throw creates an object)
         } catch (ArithmeticException exc) {
             // catch the exception
             System.out.println("Exception caught.");
