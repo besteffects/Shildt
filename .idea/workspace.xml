@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exceptions/ThrowsDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/MultiCatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptions/UseFinally.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/UseFinally.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,15 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exceptions/ExcTypeMismatch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exceptions/ExcDemo3.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -78,11 +68,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exceptions/ThrowsDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
-              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+              <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exceptions/MultiCatch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="16" column="73" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="73" />
             </state>
           </provider>
         </entry>
@@ -144,7 +143,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/inheritance/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/inheritance/multilevel/TwoDshape.java" />
         <option value="$PROJECT_DIR$/src/inheritance/multilevel/TwoDShape.java" />
         <option value="$PROJECT_DIR$/src/inheritance/super_access/X.java" />
@@ -195,6 +193,7 @@
         <option value="$PROJECT_DIR$/src/exceptions/UseThrowableMethods.java" />
         <option value="$PROJECT_DIR$/src/exceptions/UseFinally.java" />
         <option value="$PROJECT_DIR$/src/exceptions/ThrowsDemo.java" />
+        <option value="$PROJECT_DIR$/src/exceptions/MultiCatch.java" />
       </list>
     </option>
   </component>
@@ -269,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThrowDemo">
+  <component name="RunManager" selected="Application.MultiCatch">
     <configuration name="FinallyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptions.FinallyDemo" />
       <module name="Java_Shildt" />
@@ -283,8 +282,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NestTrys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.NestTrys" />
+    <configuration name="MultiCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.MultiCatch" />
       <module name="Java_Shildt" />
       <extension name="coverage">
         <pattern>
@@ -345,19 +344,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Strings" />
-      <item itemvalue="Application.NestTrys" />
       <item itemvalue="Application.ThrowDemo" />
       <item itemvalue="Application.RethrowDemo" />
       <item itemvalue="Application.UseThrowableMethods" />
       <item itemvalue="Application.FinallyDemo" />
+      <item itemvalue="Application.MultiCatch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiCatch" />
         <item itemvalue="Application.ThrowDemo" />
         <item itemvalue="Application.FinallyDemo" />
         <item itemvalue="Application.UseThrowableMethods" />
         <item itemvalue="Application.RethrowDemo" />
-        <item itemvalue="Application.NestTrys" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +386,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50208336" side_tool="true" weight="0.17310444" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.25314686" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.34265736" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34265736" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -443,22 +442,6 @@
     <SUITE FILE_PATH="coverage/Java_Shildt$OverloadedConstructorDemo.ic" NAME="OverloadedConstructorDemo Coverage Results" MODIFIED="1572330990892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/inheritance/TwoDShape1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-          <folding>
-            <element signature="e#245#246#0" expanded="true" />
-            <element signature="e#300#301#0" expanded="true" />
-            <element signature="e#356#357#0" expanded="true" />
-            <element signature="e#414#415#0" expanded="true" />
-            <element signature="e#523#524#0" expanded="true" />
-            <element signature="e#696#697#0" expanded="true" />
-            <element signature="e#778#779#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/varargs/VarArgs.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -965,7 +948,14 @@
     <entry file="file://$PROJECT_DIR$/src/exceptions/ThrowsDemo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exceptions/MultiCatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="73" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="73" />
         </state>
       </provider>
     </entry>
