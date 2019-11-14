@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exceptions/UseThrowableMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/ThrowsDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/UseFinally.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/UseFinally.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,24 +24,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exceptions/ExcDemo1.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="5" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exceptions/ExcTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="50" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exceptions/ExcTypeMismatch.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -90,7 +73,16 @@
         <entry file="file://$PROJECT_DIR$/src/exceptions/ThrowDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="90" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exceptions/ThrowsDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -104,11 +96,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exceptions/UseThrowableMethods.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="210">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exceptions/UseFinally.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -126,6 +127,7 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>width=</find>
+      <find>throws</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -142,8 +144,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/inheritance/TwoDShape4.java" />
-        <option value="$PROJECT_DIR$/src/inheritance/super_access/A.java" />
         <option value="$PROJECT_DIR$/src/inheritance/Vehicle.java" />
         <option value="$PROJECT_DIR$/src/inheritance/multilevel/TwoDshape.java" />
         <option value="$PROJECT_DIR$/src/inheritance/multilevel/TwoDShape.java" />
@@ -193,6 +193,8 @@
         <option value="$PROJECT_DIR$/src/exceptions/ThrowDemo.java" />
         <option value="$PROJECT_DIR$/src/exceptions/Rethrow.java" />
         <option value="$PROJECT_DIR$/src/exceptions/UseThrowableMethods.java" />
+        <option value="$PROJECT_DIR$/src/exceptions/UseFinally.java" />
+        <option value="$PROJECT_DIR$/src/exceptions/ThrowsDemo.java" />
       </list>
     </option>
   </component>
@@ -267,9 +269,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UseThrowableMethods">
-    <configuration name="ExcDemo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.ExcDemo5" />
+  <component name="RunManager" selected="Application.ThrowDemo">
+    <configuration name="FinallyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.FinallyDemo" />
       <module name="Java_Shildt" />
       <extension name="coverage">
         <pattern>
@@ -343,19 +345,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Strings" />
-      <item itemvalue="Application.ExcDemo5" />
       <item itemvalue="Application.NestTrys" />
       <item itemvalue="Application.ThrowDemo" />
       <item itemvalue="Application.RethrowDemo" />
       <item itemvalue="Application.UseThrowableMethods" />
+      <item itemvalue="Application.FinallyDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThrowDemo" />
+        <item itemvalue="Application.FinallyDemo" />
         <item itemvalue="Application.UseThrowableMethods" />
         <item itemvalue="Application.RethrowDemo" />
-        <item itemvalue="Application.ThrowDemo" />
         <item itemvalue="Application.NestTrys" />
-        <item itemvalue="Application.ExcDemo5" />
       </list>
     </recent_temporary>
   </component>
@@ -385,7 +387,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50208336" side_tool="true" weight="0.17310444" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.25314686" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34265736" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34265736" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -441,14 +443,6 @@
     <SUITE FILE_PATH="coverage/Java_Shildt$OverloadedConstructorDemo.ic" NAME="OverloadedConstructorDemo Coverage Results" MODIFIED="1572330990892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/x.java" />
-    <entry file="file://$PROJECT_DIR$/src/varargs/VarArgs3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="36" column="31" selection-start-line="36" selection-start-column="31" selection-end-line="36" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/inheritance/TwoDShape1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -940,13 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/exceptions/ThrowDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="90" selection-start-line="7" selection-start-column="90" selection-end-line="7" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exceptions/Rethrow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -957,7 +944,28 @@
     <entry file="file://$PROJECT_DIR$/src/exceptions/UseThrowableMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exceptions/UseFinally.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exceptions/ThrowDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exceptions/ThrowsDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
         </state>
       </provider>
     </entry>
