@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exceptions/NonIntResultException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/queue/FixedQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/queue/ICharQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/queue/QueueEmptyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/queue/QueueFullException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/NonIntResultException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/NonIntResultException.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,33 +27,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exceptions/ExcDemo4.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exceptions/ExcDemo5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exceptions/NestTrys.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exceptions/ThrowDemo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -77,41 +54,77 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exceptions/NonIntResultException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="9">
+              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
               <folding>
-                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#425#426#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exceptions/Rethrow.java">
+        <entry file="file://$PROJECT_DIR$/src/exceptions/queue/QueueFullException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="43" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+            <state relative-caret-position="15">
+              <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+              <folding>
+                <element signature="e#128#129#0" expanded="true" />
+                <element signature="e#147#148#0" expanded="true" />
+                <element signature="e#180#181#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exceptions/UseThrowableMethods.java">
+        <entry file="file://$PROJECT_DIR$/src/exceptions/queue/QueueEmptyException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="45">
+              <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+              <folding>
+                <element signature="e#150#151#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exceptions/queue/FixedQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="36">
+              <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/exceptions/UseFinally.java">
+        <entry file="file://$PROJECT_DIR$/src/queue/Queue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="42" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+            <state relative-caret-position="131">
+              <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/queue/IQDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exceptions/queue/ICharQ.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -130,14 +143,16 @@
     <findStrings>
       <find>width=</find>
       <find>throws</find>
+      <find>ICHAR</find>
+      <find>ICharQ</find>
     </findStrings>
     <replaceStrings>
       <replace />
     </replaceStrings>
     <dirStrings>
-      <dir>$PROJECT_DIR$/src</dir>
       <dir>$PROJECT_DIR$/src/inheritance/interfaces/constants</dir>
       <dir>$PROJECT_DIR$/src/inheritance/interfaces/inheritance</dir>
+      <dir>$PROJECT_DIR$/src</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -146,10 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/inheritance/multilevel/TwoDShape.java" />
-        <option value="$PROJECT_DIR$/src/inheritance/super_access/X.java" />
-        <option value="$PROJECT_DIR$/src/inheritance/method_overriding/A.java" />
-        <option value="$PROJECT_DIR$/src/inheritance/method_overriding/B1.java" />
         <option value="$PROJECT_DIR$/src/inheritance/method_overriding/Sup.java" />
         <option value="$PROJECT_DIR$/src/inheritance/TwoDShape5.java" />
         <option value="$PROJECT_DIR$/src/inheritance/TwoDShape.java" />
@@ -197,6 +208,10 @@
         <option value="$PROJECT_DIR$/src/exceptions/ThrowsDemo.java" />
         <option value="$PROJECT_DIR$/src/exceptions/MultiCatch.java" />
         <option value="$PROJECT_DIR$/src/exceptions/NonIntResultException.java" />
+        <option value="$PROJECT_DIR$/src/exceptions/queue/QueueFullException.java" />
+        <option value="$PROJECT_DIR$/src/exceptions/queue/ICharQ.java" />
+        <option value="$PROJECT_DIR$/src/exceptions/queue/QueueEmptyException.java" />
+        <option value="$PROJECT_DIR$/src/exceptions/queue/FixedQueue.java" />
       </list>
     </option>
   </component>
@@ -237,6 +252,40 @@
             </path>
             <path>
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="inheritance" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="inheritance" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="inheritance" type="462c0819:PsiDirectoryNode" />
+              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
+              <item name="Queue.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
             <path>
@@ -254,6 +303,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="exceptions.queue" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/varargs" />
@@ -271,7 +323,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MultiCatch">
+  <component name="RunManager" selected="Application.QExcDemo">
+    <configuration name="CustomExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.CustomExceptionDemo" />
+      <module name="Java_Shildt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptions.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FinallyDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptions.FinallyDemo" />
       <module name="Java_Shildt" />
@@ -298,12 +363,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RethrowDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.RethrowDemo" />
+    <configuration name="QExcDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.queue.QExcDemo" />
       <module name="Java_Shildt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptions.*" />
+          <option name="PATTERN" value="exceptions.queue.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -332,34 +397,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UseThrowableMethods" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.UseThrowableMethods" />
-      <module name="Java_Shildt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exceptions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.Strings" />
       <item itemvalue="Application.ThrowDemo" />
-      <item itemvalue="Application.RethrowDemo" />
-      <item itemvalue="Application.UseThrowableMethods" />
       <item itemvalue="Application.FinallyDemo" />
       <item itemvalue="Application.MultiCatch" />
+      <item itemvalue="Application.CustomExceptionDemo" />
+      <item itemvalue="Application.QExcDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QExcDemo" />
+        <item itemvalue="Application.CustomExceptionDemo" />
         <item itemvalue="Application.MultiCatch" />
         <item itemvalue="Application.ThrowDemo" />
         <item itemvalue="Application.FinallyDemo" />
-        <item itemvalue="Application.UseThrowableMethods" />
-        <item itemvalue="Application.RethrowDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -445,97 +497,6 @@
     <SUITE FILE_PATH="coverage/Java_Shildt$OverloadedConstructorDemo.ic" NAME="OverloadedConstructorDemo Coverage Results" MODIFIED="1572330990892" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/inheritance/TwoDShape4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1530">
-          <caret line="102" column="27" selection-start-line="102" selection-start-column="27" selection-end-line="102" selection-end-column="27" />
-          <folding>
-            <element signature="e#227#228#0" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-            <element signature="e#471#472#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#582#583#0" expanded="true" />
-            <element signature="e#612#613#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#659#660#0" expanded="true" />
-            <element signature="e#681#682#0" expanded="true" />
-            <element signature="e#718#719#0" expanded="true" />
-            <element signature="e#741#742#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#804#805#0" expanded="true" />
-            <element signature="e#1436#1437#0" expanded="true" />
-            <element signature="e#1468#1469#0" expanded="true" />
-            <element signature="e#1510#1511#0" expanded="true" />
-            <element signature="e#1546#1547#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/super_access/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/TwoDShape3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="37" column="12" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="12" />
-          <folding>
-            <element signature="e#310#311#0" expanded="true" />
-            <element signature="e#337#338#0" expanded="true" />
-            <element signature="e#362#363#0" expanded="true" />
-            <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#420#421#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#522#523#0" expanded="true" />
-            <element signature="e#558#559#0" expanded="true" />
-            <element signature="e#848#849#0" expanded="true" />
-            <element signature="e#880#881#0" expanded="true" />
-            <element signature="e#922#923#0" expanded="true" />
-            <element signature="e#958#959#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/multilevel/TwoDShape.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding>
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#457#458#0" expanded="true" />
-            <element signature="e#555#556#0" expanded="true" />
-            <element signature="e#610#611#0" expanded="true" />
-            <element signature="e#666#667#0" expanded="true" />
-            <element signature="e#724#725#0" expanded="true" />
-            <element signature="e#832#833#0" expanded="true" />
-            <element signature="e#1303#1304#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#1377#1378#0" expanded="true" />
-            <element signature="e#1413#1414#0" expanded="true" />
-            <element signature="e#1705#1706#0" expanded="true" />
-            <element signature="e#1732#1733#0" expanded="true" />
-            <element signature="e#1760#1761#0" expanded="true" />
-            <element signature="e#1796#1797#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/super_access/X.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="22" column="24" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
-          <folding>
-            <element signature="e#146#147#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/inheritance/method_overriding.java" />
     <entry file="file://$PROJECT_DIR$/src/inheritance/abstractClasses.java" />
     <entry file="file://$PROJECT_DIR$/src/inheritance/Vehicle.java">
@@ -771,13 +732,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/queue/IQDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/queue/ICharQ.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -957,11 +911,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exceptions/NonIntResultException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="9">
+          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
           <folding>
-            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/queue/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/inheritance/interfaces/queue/IQDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="8" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exceptions/queue/QueueFullException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="37" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+          <folding>
+            <element signature="e#128#129#0" expanded="true" />
+            <element signature="e#147#148#0" expanded="true" />
+            <element signature="e#180#181#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exceptions/queue/QueueEmptyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding>
+            <element signature="e#150#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exceptions/queue/ICharQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exceptions/queue/FixedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
         </state>
       </provider>
     </entry>

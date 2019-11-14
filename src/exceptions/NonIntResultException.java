@@ -1,7 +1,7 @@
 package exceptions;
 
 // Use a custom exception
-// create an exception
+// create an exception that occurs when the result of dividing two integer values produces a result with fractional components
 class NonIntResultException extends Exception {
     int n;
     int d;
