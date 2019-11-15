@@ -1,5 +1,5 @@
 //Read an array of bytes from the keyboard (reading console input)
-package IO;
+package IO.bytes;
 
 import java.io.IOException;
 

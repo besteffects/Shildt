@@ -1,4 +1,4 @@
-package IO;
+package IO.bytes;
 
 //Demonstrate System.out.write()
 class WriteDemo {
