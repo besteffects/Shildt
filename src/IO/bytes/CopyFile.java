@@ -7,10 +7,10 @@ import java.io.IOException;
 /*
 Copy a text file
 To use this program, specify the name
-of the source fileand the destination file.
+of the source file and the destination file.
 For example, to copy a file called first.txt to second.txt, use the
 following command line.
-  java IO.bytes.CopyFile first.txt second.txt
+  java IO.bytes.CopyFile first.txt second.txt. The program must be run from the folder with compiled class.
     files must be put into the main directory
  */
 public class CopyFile {
@@ -21,7 +21,7 @@ public class CopyFile {
 
         //First, make sure that both files has been specified.
         if (args.length != 2) {
-            System.out.println("Usage: CopyFile from to");
+            System.out.println("Usage: CopyFile from to (Overrride text)");
             return;
         }
         // Copy a file
