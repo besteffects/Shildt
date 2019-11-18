@@ -10,7 +10,7 @@ Key-to-disk utility that reads lines of text entered at the keyboard
 and writes them to a file called "test.txt". Text is read until the user
 enters the word "stop". It uses a FileWriter to output to the file.
  */
-class KtoD {
+class KtoD_FileWriter {
     public static void main(String[] args) {
         String str;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
