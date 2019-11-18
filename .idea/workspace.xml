@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/IO/chars/PrintWriterDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IO/chars/PrintWriterDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO/bytes/PrintWriterDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IO/chars/ReadChars.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO/bytes/ReadChars.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IO/chars/ReadLines.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IO/bytes/ReadLines.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,22 +52,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IO/chars/ReadChars.java">
+        <entry file="file://$PROJECT_DIR$/src/IO/bytes/ReadChars.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IO/chars/ReadLines.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+            <state relative-caret-position="105">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,10 +64,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/IO/chars/PrintWriterDemo.java">
+        <entry file="file://$PROJECT_DIR$/src/IO/bytes/ReadLines.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
+            <state relative-caret-position="120">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/IO/bytes/PrintWriterDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -152,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/inheritance/interfaces/ByThrees.java" />
         <option value="$PROJECT_DIR$/src/inheritance/interfaces/queue/ICharQ.java" />
         <option value="$PROJECT_DIR$/src/inheritance/interfaces/queue/FixedQueue.java" />
         <option value="$PROJECT_DIR$/src/inheritance/interfaces/queue/IQDemo.java" />
@@ -203,6 +203,7 @@
         <option value="$PROJECT_DIR$/src/IO/chars/ReadLines.java" />
         <option value="$PROJECT_DIR$/src/IO/chars/PrintWriter.java" />
         <option value="$PROJECT_DIR$/src/IO/chars/PrintWriterDemo.java" />
+        <option value="$PROJECT_DIR$/src/IO/bytes/PrintWriterDemo.java" />
       </list>
     </option>
   </component>
@@ -286,9 +287,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ReadChars">
+  <component name="RunManager" selected="Application.PrintWriterDemo">
     <configuration name="CopyFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IO.bytes.CopyFile" />
+      <module name="Java_Shildt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="IO.bytes.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrintWriterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IO.bytes.PrintWriterDemo" />
       <module name="Java_Shildt" />
       <extension name="coverage">
         <pattern>
@@ -327,20 +341,7 @@
       </method>
     </configuration>
     <configuration name="ReadChars" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IO.chars.ReadChars" />
-      <module name="Java_Shildt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="IO.chars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ShowFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IO.bytes.ShowFile" />
+      <option name="MAIN_CLASS_NAME" value="IO.bytes.ReadChars" />
       <module name="Java_Shildt" />
       <extension name="coverage">
         <pattern>
@@ -363,18 +364,18 @@
     <list>
       <item itemvalue="Application.Strings" />
       <item itemvalue="Application.CopyFile" />
-      <item itemvalue="Application.ShowFile" />
       <item itemvalue="Application.RWData" />
       <item itemvalue="Application.RandomAccessDemo" />
       <item itemvalue="Application.ReadChars" />
+      <item itemvalue="Application.PrintWriterDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PrintWriterDemo" />
         <item itemvalue="Application.ReadChars" />
         <item itemvalue="Application.RandomAccessDemo" />
         <item itemvalue="Application.RWData" />
         <item itemvalue="Application.CopyFile" />
-        <item itemvalue="Application.ShowFile" />
       </list>
     </recent_temporary>
   </component>
@@ -393,7 +394,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="804" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.2553648" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -404,7 +404,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50208336" side_tool="true" weight="0.17310444" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.252809" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35674158" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35674158" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988764" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -812,30 +812,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IO/chars/ReadChars.java">
+    <entry file="file://$PROJECT_DIR$/src/IO/bytes/PrintWriterDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="33" selection-start-line="16" selection-start-column="33" selection-end-line="16" selection-end-column="33" />
+        <state relative-caret-position="90">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IO/bytes/ReadChars.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/IO/chars/ReadLines.java">
+    <entry file="file://$PROJECT_DIR$/src/IO/bytes/ReadLines.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="59" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IO/chars/PrintWriterDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="48" selection-start-line="15" selection-start-column="48" selection-end-line="15" selection-end-column="48" />
         </state>
       </provider>
     </entry>

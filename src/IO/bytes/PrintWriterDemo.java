@@ -1,4 +1,4 @@
-package IO.chars;
+package IO.bytes;
 //Demonstrate PrintWriterDemo (handles console output)
 //Should be used instead sout for internationalization
 
@@ -13,6 +13,6 @@ class PrintWriterDemo {
         pw.println(i);
         pw.println(d);
 
-        pw.println(i + " " + d + " is " + (i + d));
+        pw.println(i + "+" + d + " is " + (i + d));
     }
 }

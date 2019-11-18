@@ -1,4 +1,4 @@
-package IO.chars;
+package IO.bytes;
 //Use a BufferedReader to read characters from the console.
 
 import java.io.BufferedReader;
