@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/multithreading/MyThread1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/ExtendThread.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/multithreading/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/MyThread.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -97,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/multithreading/MyThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="28">
+              <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding>
                 <element signature="e#209#210#0" expanded="true" />
                 <element signature="e#239#240#0" expanded="true" />
@@ -107,14 +106,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/multithreading/MyThread1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+            <state relative-caret-position="95">
+              <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
               <folding>
                 <element signature="e#561#562#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/multithreading/ExtendThread.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -124,18 +132,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
               <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IO/bytes/RandomAccessDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="13" column="29" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -173,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/inheritance/interfaces/Series1.java" />
         <option value="$PROJECT_DIR$/src/inheritance/interfaces/defaultMethods/MyIF.java" />
         <option value="$PROJECT_DIR$/src/inheritance/interfaces/Series2.java" />
         <option value="$PROJECT_DIR$/src/inheritance/exceptions/ExcDemo1.java" />
@@ -224,13 +219,15 @@
         <option value="$PROJECT_DIR$/src/IO/Help.java" />
         <option value="$PROJECT_DIR$/src/multithreading/MyThread.java" />
         <option value="$PROJECT_DIR$/src/multithreading/MyThread1.java" />
+        <option value="$PROJECT_DIR$/src/multithreading/ExtendThread.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+    <option name="x" value="-20" />
+    <option name="y" value="41" />
     <option name="width" value="1440" />
-    <option name="height" value="807" />
+    <option name="height" value="804" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -314,7 +311,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ThreadVariations">
+  <component name="RunManager" selected="Application.UseThreads">
     <configuration name="AvgNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IO.typeWrappers.AvgNums" />
       <module name="Java_Shildt" />
@@ -398,8 +395,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ThreadVariations" />
         <item itemvalue="Application.UseThreads" />
+        <item itemvalue="Application.ThreadVariations" />
         <item itemvalue="Application.AvgNums" />
         <item itemvalue="Application.DtoS_FileReader" />
         <item itemvalue="Application.KtoD_FileWriter" />
@@ -420,7 +417,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="804" extended-state="6" />
+    <frame x="-4" y="24" width="1440" height="804" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.2553648" />
@@ -491,13 +488,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/exceptions/NestTrys.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" column="65" selection-start-line="22" selection-start-column="65" selection-end-line="22" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exceptions/Rethrow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
@@ -858,8 +848,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/multithreading/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="28">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
             <element signature="e#209#210#0" expanded="true" />
             <element signature="e#239#240#0" expanded="true" />
@@ -869,11 +859,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/multithreading/MyThread1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+        <state relative-caret-position="95">
+          <caret line="26" column="17" lean-forward="true" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
           <folding>
             <element signature="e#561#562#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multithreading/ExtendThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
