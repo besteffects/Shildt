@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/multithreading/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/MyThread1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multithreading/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/MyThread.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -69,18 +70,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/IO/bytes/CopyFile.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IO/typeWrappers/AvgNums.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-82">
@@ -105,13 +94,26 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/multithreading/MyThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="165">
+              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
               <folding>
-                <element signature="e#231#232#0" expanded="true" />
+                <element signature="e#209#210#0" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/multithreading/MyThread1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+              <folding>
+                <element signature="e#561#562#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,7 +173,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/inheritance/interfaces/defaultMethods/seriesClassWithDefault/Series1.java" />
         <option value="$PROJECT_DIR$/src/inheritance/interfaces/Series1.java" />
         <option value="$PROJECT_DIR$/src/inheritance/interfaces/defaultMethods/MyIF.java" />
         <option value="$PROJECT_DIR$/src/inheritance/interfaces/Series2.java" />
@@ -222,6 +223,7 @@
         <option value="$PROJECT_DIR$/src/IO/typeWrappers/Help.java" />
         <option value="$PROJECT_DIR$/src/IO/Help.java" />
         <option value="$PROJECT_DIR$/src/multithreading/MyThread.java" />
+        <option value="$PROJECT_DIR$/src/multithreading/MyThread1.java" />
       </list>
     </option>
   </component>
@@ -253,6 +255,26 @@
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
               <item name="Shildt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="multithreading" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="multithreading" type="462c0819:PsiDirectoryNode" />
+              <item name="MyThread.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="multithreading" type="462c0819:PsiDirectoryNode" />
+              <item name="MyThread1.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
@@ -292,7 +314,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.UseThreads">
+  <component name="RunManager" selected="Application.ThreadVariations">
     <configuration name="AvgNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IO.typeWrappers.AvgNums" />
       <module name="Java_Shildt" />
@@ -332,23 +354,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintWriterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="IO.bytes.PrintWriterDemo" />
-      <module name="Java_Shildt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="IO.bytes.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Strings" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="staticMod.Strings" />
       <module name="Java_Shildt" />
       <option name="PROGRAM_PARAMETERS" value="Mary" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ThreadVariations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadVariations" />
+      <module name="Java_Shildt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="multithreading.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -368,19 +390,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Strings" />
-      <item itemvalue="Application.PrintWriterDemo" />
       <item itemvalue="Application.DtoS_FileReader" />
       <item itemvalue="Application.KtoD_FileWriter" />
       <item itemvalue="Application.AvgNums" />
       <item itemvalue="Application.UseThreads" />
+      <item itemvalue="Application.ThreadVariations" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ThreadVariations" />
         <item itemvalue="Application.UseThreads" />
         <item itemvalue="Application.AvgNums" />
         <item itemvalue="Application.DtoS_FileReader" />
         <item itemvalue="Application.KtoD_FileWriter" />
-        <item itemvalue="Application.PrintWriterDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -410,7 +432,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50208336" side_tool="true" weight="0.17310444" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.252809" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35674158" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35674158" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988764" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -469,13 +491,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/exceptions/ExcDemo5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/exceptions/NestTrys.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -843,10 +858,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/multithreading/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="165">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
-            <element signature="e#231#232#0" expanded="true" />
+            <element signature="e#209#210#0" expanded="true" />
+            <element signature="e#239#240#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multithreading/MyThread1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding>
+            <element signature="e#561#562#0" expanded="true" />
           </folding>
         </state>
       </provider>

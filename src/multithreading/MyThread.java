@@ -1,7 +1,7 @@
 package multithreading;
 
 class MyThread implements Runnable { // Objects of MyThread can be run in their own threads because MyThread implements Runnnable
-    String thrName;
+    private String thrName;
     MyThread(String name) {
         thrName = name;
     }
