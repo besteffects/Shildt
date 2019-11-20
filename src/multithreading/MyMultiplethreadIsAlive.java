@@ -1,17 +1,17 @@
 package multithreading;
-//Create multiple threads
 
-class MyMultipleThread implements Runnable {
+// Use is alive. IsAlive is used to wait for child threads to terminate
+class MyMultiplethreadIsAlive implements Runnable {
     Thread thrd;
 
     //Construct a new thread.
-    MyMultipleThread(String name) {
+    MyMultiplethreadIsAlive(String name) {
         thrd = new Thread(this, name);
     }
 
     //A factory method that creates and starts a thread.
-    public static MyMultipleThread createAndStart(String name) {
-        MyMultipleThread myThrd = new MyMultipleThread(name);
+    public static MyMultiplethreadIsAlive createAndStart(String name) {
+        MyMultiplethreadIsAlive myThrd = new MyMultiplethreadIsAlive(name);
 
         myThrd.thrd.start(); //start the thread
         return myThrd;
@@ -32,22 +32,26 @@ class MyMultipleThread implements Runnable {
     }
 }
 
-class MoreThreads{
+class MoreThreads1 {
     public static void main(String[] args) {
         System.out.println("Main thread starting.");
 
-        MyMultipleThread mt1=MyMultipleThread.createAndStart("Child #1");
-        MyMultipleThread mt2 = MyMultipleThread.createAndStart("Child #2");
-        MyMultipleThread mt3 = MyMultipleThread.createAndStart("Child #3");
+        MyMultiplethreadIsAlive mt1 = MyMultiplethreadIsAlive.createAndStart("Child #1");
+        MyMultiplethreadIsAlive mt2 = MyMultiplethreadIsAlive.createAndStart("Child #2");
+        MyMultiplethreadIsAlive mt3 = MyMultiplethreadIsAlive.createAndStart("Child #3");
 
-        for (int i = 0; i <50 ; i++) {
+        do {
             System.out.print(".");
             try {
                 Thread.sleep(100);
-            }catch (InterruptedException exc){
-                System.out.println("Main thread interrupted");
+            } catch (InterruptedException exc) {
+                System.out.println("Main thread interrupted.");
             }
-        }
+        } while (mt1.thrd.isAlive() ||
+                mt2.thrd.isAlive() ||
+                mt3.thrd.isAlive());
+
         System.out.println("Main thread ending.");
     }
+
 }
