@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/multithreading/Priority.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/multithreading/synchronizarion/SumArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -106,7 +106,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/multithreading/MyThreadJoin.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="510">
@@ -114,6 +114,15 @@
               <folding>
                 <element signature="e#335#336#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/multithreading/synchronizarion/SumArray.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="63" column="55" selection-start-line="63" selection-start-column="55" selection-end-line="63" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -160,7 +169,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/exceptions/ExcDemo3.java" />
         <option value="$PROJECT_DIR$/src/exceptions/ExcDemo4.java" />
         <option value="$PROJECT_DIR$/src/exceptions/ExcDemo5.java" />
         <option value="$PROJECT_DIR$/src/exceptions/NestTrys.java" />
@@ -211,6 +219,7 @@
         <option value="$PROJECT_DIR$/src/multithreading/MyMultiplethreadIsAlive.java" />
         <option value="$PROJECT_DIR$/src/multithreading/MyThreadJoin.java" />
         <option value="$PROJECT_DIR$/src/multithreading/Priority.java" />
+        <option value="$PROJECT_DIR$/src/multithreading/synchronizarion/SumArray.java" />
       </list>
     </option>
   </component>
@@ -255,14 +264,7 @@
               <item name="Shildt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="multithreading" type="462c0819:PsiDirectoryNode" />
-              <item name="MyThreadJoin.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="multithreading" type="462c0819:PsiDirectoryNode" />
-              <item name="Priority.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="synchronizarion" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
@@ -302,7 +304,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PriorityDemo">
+  <component name="RunManager" selected="Application.Sync">
     <configuration name="JoinThreads" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.JoinThreads" />
       <module name="Java_Shildt" />
@@ -350,12 +352,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThreadVariations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.ThreadVariations" />
+    <configuration name="Sync" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="multithreading.synchronizarion.Sync" />
       <module name="Java_Shildt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="multithreading.MyThread" />
+          <option name="PATTERN" value="multithreading.synchronizarion.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -379,18 +381,18 @@
     <list>
       <item itemvalue="Application.Strings" />
       <item itemvalue="Application.UseThreads" />
-      <item itemvalue="Application.ThreadVariations" />
       <item itemvalue="Application.MoreThreads" />
       <item itemvalue="Application.JoinThreads" />
       <item itemvalue="Application.PriorityDemo" />
+      <item itemvalue="Application.Sync" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Sync" />
         <item itemvalue="Application.PriorityDemo" />
         <item itemvalue="Application.JoinThreads" />
         <item itemvalue="Application.MoreThreads" />
         <item itemvalue="Application.UseThreads" />
-        <item itemvalue="Application.ThreadVariations" />
       </list>
     </recent_temporary>
   </component>
@@ -409,8 +411,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="24" width="1440" height="804" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.2553648" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.2553648" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -419,7 +422,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50208336" side_tool="true" weight="0.17310444" />
       <window_info anchor="bottom" id="Thumbnails" weight="0.3286517" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.252809" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.252809" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.123595506" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988764" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -479,16 +482,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/exceptions/NonIntResultException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-          <folding>
-            <element signature="e#425#426#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/queue/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
@@ -871,6 +864,13 @@
           <folding>
             <element signature="e#335#336#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/multithreading/synchronizarion/SumArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="63" column="55" selection-start-line="63" selection-start-column="55" selection-end-line="63" selection-end-column="55" />
         </state>
       </provider>
     </entry>
