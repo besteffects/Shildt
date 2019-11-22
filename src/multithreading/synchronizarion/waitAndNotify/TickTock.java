@@ -1,5 +1,7 @@
 package multithreading.synchronizarion.waitAndNotify;
 
+import multithreading.MyThreadJoin;
+
 // Use wait() and notify() to create a ticking clock
 class TickTock {
     String state; // contains the state of the clock
@@ -41,6 +43,35 @@ class TickTock {
             } catch (InterruptedException exc) {
                 System.out.println("Thread interrupted.");
             }
+        }
+    }
+}
+
+class Mythread implements Runnable{
+    Thread thrd;
+    TickTock ttOb;
+
+    //Construct a new thread.
+    Mythread(String name, TickTock tt){
+        thrd = new Thread(this,name);
+        ttOb=tt;
+    }
+
+    // A factory method that creates and starts a thread.
+    public static Mythread createAndStart(String name, TickTock tt){
+        Mythread myThrd = new Mythread(name,tt);
+        myThrd.thrd.start(); //start the thread
+        return myThrd;
+    }
+
+    //Entry point of thread.
+    public void run(){
+        if (thrd.getName().compareTo("Tick")==0){
+            for (int i = 0; i <5 ; i++) {
+                ttOb.tick(false);
+            }
+        } else for (int i = 0; i <5 ; i++) {
+            ttOb.tock(true);
         }
     }
 }

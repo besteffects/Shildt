@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/multithreading/synchronizarion/waitAndNotify/TickTock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/multithreading/synchronizarion/waitAndNotify/TickTock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/multithreading/synchronizarion/waitAndNotify/TickTock.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -114,8 +113,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/multithreading/synchronizarion/waitAndNotify/TickTock.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+            <state relative-caret-position="330">
+              <caret line="69" column="41" lean-forward="true" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -870,8 +869,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/multithreading/synchronizarion/waitAndNotify/TickTock.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="43" column="9" selection-start-line="43" selection-start-column="9" selection-end-line="43" selection-end-column="9" />
+        <state relative-caret-position="330">
+          <caret line="69" column="41" lean-forward="true" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
         </state>
       </provider>
     </entry>
