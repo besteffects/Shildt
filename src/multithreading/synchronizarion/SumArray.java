@@ -4,7 +4,7 @@ package multithreading.synchronizarion;
 class SumArray {
     private int sum;
 
-    synchronized int sumArray(int nums[]) { //sumArray is synchronized
+     synchronized int sumArray(int nums[]) { //sumArray is synchronized
         sum = 0; //reset sum
         for (int i = 0; i < nums.length; i++) {
             sum += nums[i];
@@ -34,7 +34,7 @@ class MyThread implements Runnable {
     }
 
     //A factory method that creates and starts a thread.
-    public static MyThread createAndStart(String name, int nums[]) {
+    static MyThread createAndStart(String name, int nums[]) {
         MyThread myThrd = new MyThread(name, nums);
         myThrd.thrd.start(); //start the thread
         return myThrd;
