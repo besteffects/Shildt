@@ -12,7 +12,7 @@ class TickTock {
             return;
         }
 
-        System.out.println("Tick ");
+        System.out.print("Tick ");
 
         state = "ticked"; //set the current state to ticked
 
@@ -47,19 +47,19 @@ class TickTock {
     }
 }
 
-class MyThread1 implements Runnable {
+class MyThread implements Runnable {
     Thread thrd;
     TickTock ttOb;
 
     //Construct a new thread.
-    MyThread1(String name, TickTock tt) {
+    MyThread(String name, TickTock tt) {
         thrd = new Thread(this, name);
         ttOb = tt;
     }
 
     //  A factory method that creates and starts a thread.
-    static MyThread1 createAndStart(String name, TickTock tt) {
-        MyThread1 myThrd = new MyThread1(name, tt);
+    static MyThread createAndStart(String name, TickTock tt) {
+        MyThread myThrd = new MyThread(name, tt);
 
         myThrd.thrd.start(); //start the thread
         return myThrd;
@@ -70,20 +70,21 @@ class MyThread1 implements Runnable {
     public void run() {
         if (thrd.getName().compareTo("Tick") == 0) {
             for (int i = 0; i < 5; i++) {
+                ttOb.tick(true);
                 ttOb.tick(false);
             }
         } else {
             for (int i = 0; i < 5; i++) ttOb.tock(true);
-                ttOb.tock(false);
+            ttOb.tock(false);
         }
     }
 }
 
-/*class ThreadCom {
+class ThreadCom {
     public static void main(String[] args) {
         TickTock tt = new TickTock();
-        MyThread1 mt1 = new MyThread1.createAndStart("Tick", tt);
-        MyThread1 mt2 = new MyThread1.createAndStart("Tock", tt);
+        MyThread mt1 = MyThread.createAndStart("Tick", tt);
+        MyThread mt2 = MyThread.createAndStart("Tock", tt);
         try {
             mt1.thrd.join();
             mt2.thrd.join();
@@ -93,4 +94,3 @@ class MyThread1 implements Runnable {
     }
 }
 
- */
