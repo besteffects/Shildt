@@ -36,7 +36,7 @@ class TickTock {
 
         state = "tocked"; //set the current state to tocked
 
-        notify(); //let tick() run //tock() notifies tick()
+        notify(); //let tick() run. tock() notifies tick()
         try {
             while (!state.equals("ticked")) {
                 wait(); //wait for tick to complete (tock() waits for tick() )
