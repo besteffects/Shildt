@@ -1,6 +1,6 @@
-package bookpack;//bookpack.Book recoded for public access
+package packages.bookpack;//packages.bookpack.Book recoded for public access
 
-// packages.bookpack.Book and its members must be public in order to be used by other packages
+// packages.packages.bookpack.Book and its members must be public in order to be used by other packages
 public class Book {
     private String title;
     private String author;
