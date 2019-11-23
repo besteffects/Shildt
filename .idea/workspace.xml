@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/this_keyword/Pwr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/this_keyword/Pwr1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/this_keyword/Pwr1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/this_keyword/Pwr1.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -91,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/this_keyword/Pwr.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+            <state relative-caret-position="300">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
               <folding>
                 <element signature="e#294#295#0" expanded="true" />
                 <element signature="e#319#320#0" expanded="true" />
@@ -104,11 +102,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/this_keyword/Pwr1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+            <state relative-caret-position="165">
+              <caret line="11" column="94" lean-forward="true" selection-start-line="11" selection-start-column="94" selection-end-line="11" selection-end-column="94" />
+              <folding>
+                <element signature="e#358#359#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -155,7 +156,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/exceptions/UseThrowableMethods.java" />
         <option value="$PROJECT_DIR$/src/exceptions/UseFinally.java" />
         <option value="$PROJECT_DIR$/src/exceptions/ThrowsDemo.java" />
         <option value="$PROJECT_DIR$/src/exceptions/MultiCatch.java" />
@@ -206,6 +206,7 @@
         <option value="$PROJECT_DIR$/src/multithreading/synchronizarion/waitAndNotify/TickTock.java" />
         <option value="$PROJECT_DIR$/src/multithreading/suspendingThreads/MyThread.java" />
         <option value="$PROJECT_DIR$/src/this_keyword/Pwr.java" />
+        <option value="$PROJECT_DIR$/src/this_keyword/Pwr1.java" />
       </list>
     </option>
   </component>
@@ -270,6 +271,13 @@
             </path>
             <path>
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="this_keyword" type="462c0819:PsiDirectoryNode" />
+              <item name="Pwr.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </path>
+            <path>
+              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -311,9 +319,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoPwr">
+  <component name="RunManager" selected="Application.DemoPwr1">
     <configuration name="DemoPwr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="this_keyword.DemoPwr" />
+      <module name="Java_Shildt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="this_keyword.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoPwr1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="this_keyword.DemoPwr1" />
       <module name="Java_Shildt" />
       <extension name="coverage">
         <pattern>
@@ -359,19 +380,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sync" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.synchronizarion.Sync" />
-      <module name="Java_Shildt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.synchronizarion.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ThreadCom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.synchronizarion.waitAndNotify.ThreadCom" />
       <module name="Java_Shildt" />
@@ -388,18 +396,18 @@
     <list>
       <item itemvalue="Application.Strings" />
       <item itemvalue="Application.Sync (1)" />
-      <item itemvalue="Application.Sync" />
       <item itemvalue="Application.ThreadCom" />
       <item itemvalue="Application.Suspend" />
       <item itemvalue="Application.DemoPwr" />
+      <item itemvalue="Application.DemoPwr1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoPwr1" />
         <item itemvalue="Application.DemoPwr" />
         <item itemvalue="Application.Suspend" />
         <item itemvalue="Application.ThreadCom" />
         <item itemvalue="Application.Sync (1)" />
-        <item itemvalue="Application.Sync" />
       </list>
     </recent_temporary>
   </component>
@@ -429,7 +437,7 @@
     <frame x="0" y="23" width="1440" height="805" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.2846924" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.2846924" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -438,7 +446,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50208336" side_tool="true" weight="0.17310444" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.25245443" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.22720897" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.22720897" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988764" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -826,13 +834,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/multithreading/Priority.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/multithreading/suspendingThreads/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -879,21 +880,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/this_keyword/Pwr.java">
+    <entry file="file://$PROJECT_DIR$/src/multithreading/Priority.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="16" lean-forward="true" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-          <folding>
-            <element signature="e#294#295#0" expanded="true" />
-            <element signature="e#319#320#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="405">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/this_keyword/Pwr1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="165">
+          <caret line="11" column="94" lean-forward="true" selection-start-line="11" selection-start-column="94" selection-end-line="11" selection-end-column="94" />
+          <folding>
+            <element signature="e#358#359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/this_keyword/Pwr.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+          <folding>
+            <element signature="e#294#295#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
