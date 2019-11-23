@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/chapter12/enumeration/Transport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bookpack/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/packages/bookpack/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/bookpackext/useBook.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/packages/bookpack/bookpackext/useBook.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constructor/OverloadedConstructor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/constructor/OverloadedConstructor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constructor/Summation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/constructor/Summation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/constructor/queue2/Queue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/constructor/queue2/Queue.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +30,7 @@
         <entry file="file://$PROJECT_DIR$/src/multithreading/suspendingThreads/MyThread.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="751">
-              <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+              <caret line="59" selection-start-line="59" selection-end-line="59" />
               <folding>
                 <element signature="e#1694#1695#0" expanded="true" />
                 <element signature="e#1726#1727#0" expanded="true" />
@@ -64,11 +66,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/staticMod/StaticMeth.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state relative-caret-position="270">
+              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter12/enumeration/Transport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -112,19 +123,10 @@
         <entry file="file://$PROJECT_DIR$/src/this_keyword/Pwr1.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
-              <caret line="11" column="94" lean-forward="true" selection-start-line="11" selection-start-column="94" selection-end-line="11" selection-end-column="94" />
+              <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
               <folding>
                 <element signature="e#358#359#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/multithreading/Priority.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -136,6 +138,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -154,6 +157,7 @@
       <dir>$PROJECT_DIR$/src/inheritance/interfaces/inheritance</dir>
       <dir>$PROJECT_DIR$/src</dir>
       <dir>$PROJECT_DIR$/src/IO</dir>
+      <dir>$PROJECT_DIR$/src/chapter12/enumeration</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -162,8 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/exceptions/queue/QueueFullException.java" />
-        <option value="$PROJECT_DIR$/src/exceptions/queue/ICharQ.java" />
         <option value="$PROJECT_DIR$/src/exceptions/queue/QueueEmptyException.java" />
         <option value="$PROJECT_DIR$/src/exceptions/queue/FixedQueue.java" />
         <option value="$PROJECT_DIR$/src/IO/ReadBytes.java" />
@@ -213,6 +215,8 @@
         <option value="$PROJECT_DIR$/src/bookpack/Book.java" />
         <option value="$PROJECT_DIR$/src/packages/bookpack/Book.java" />
         <option value="$PROJECT_DIR$/src/packages/bookpack/bookpackext/useBook.java" />
+        <option value="$PROJECT_DIR$/src/chapter12/Transport.java" />
+        <option value="$PROJECT_DIR$/src/chapter12/enumeration/Transport.java" />
       </list>
     </option>
   </component>
@@ -243,6 +247,19 @@
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
               <item name="Shildt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter12" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter12" type="462c0819:PsiDirectoryNode" />
+              <item name="enumeration" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
@@ -319,7 +336,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DemoPwr1">
+  <component name="RunManager" selected="Application.EnumDemo">
     <configuration name="DemoPwr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="this_keyword.DemoPwr" />
       <module name="Java_Shildt" />
@@ -339,6 +356,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="this_keyword.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EnumDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter12.enumeration.EnumDemo" />
+      <module name="Java_Shildt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter12.enumeration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -367,19 +397,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Sync (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="multithreading.synchronizarion.blocks.Sync" />
-      <module name="Java_Shildt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="multithreading.synchronizarion.blocks.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ThreadCom" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="multithreading.synchronizarion.waitAndNotify.ThreadCom" />
       <module name="Java_Shildt" />
@@ -395,19 +412,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Strings" />
-      <item itemvalue="Application.Sync (1)" />
       <item itemvalue="Application.ThreadCom" />
       <item itemvalue="Application.Suspend" />
       <item itemvalue="Application.DemoPwr" />
       <item itemvalue="Application.DemoPwr1" />
+      <item itemvalue="Application.EnumDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EnumDemo" />
         <item itemvalue="Application.DemoPwr1" />
         <item itemvalue="Application.DemoPwr" />
         <item itemvalue="Application.Suspend" />
         <item itemvalue="Application.ThreadCom" />
-        <item itemvalue="Application.Sync (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -435,9 +452,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="805" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.2846924" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.2846924" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -445,8 +461,8 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" sideWeight="0.50208336" side_tool="true" weight="0.17310444" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.12342216" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.22720897" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.12342216" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39691445" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988764" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -507,16 +523,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/invoke/DirectMethodHandle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="309" selection-start-line="309" selection-end-line="309" />
-          <folding>
-            <element signature="e#13575#13576#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jrt:///Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home!/java.base/java/lang/invoke/DirectMethodHandle$Holder.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="129">
@@ -847,7 +853,7 @@
     <entry file="file://$PROJECT_DIR$/src/this_keyword/Pwr1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
-          <caret line="11" column="94" lean-forward="true" selection-start-line="11" selection-start-column="94" selection-end-line="11" selection-end-column="94" />
+          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
           <folding>
             <element signature="e#358#359#0" expanded="true" />
           </folding>
@@ -868,7 +874,7 @@
     <entry file="file://$PROJECT_DIR$/src/multithreading/suspendingThreads/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="751">
-          <caret line="59" lean-forward="true" selection-start-line="59" selection-end-line="59" />
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
           <folding>
             <element signature="e#1694#1695#0" expanded="true" />
             <element signature="e#1726#1727#0" expanded="true" />
@@ -906,8 +912,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/staticMod/StaticMeth.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        <state relative-caret-position="270">
+          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter12/enumeration/Transport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
         </state>
       </provider>
     </entry>
