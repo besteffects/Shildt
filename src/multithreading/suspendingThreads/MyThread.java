@@ -24,8 +24,8 @@ public class MyThread implements Runnable {
     public void run() {
         System.out.println(thrd.getName() + " starting.");
         try {
-            for (int i = 0; i < 1000; i++) {
-                System.out.println(i + " ");
+            for (int i = 1; i < 1000; i++) {
+                System.out.print(i + " ");
                 if ((i % 10) == 0) {
                     System.out.println();
                     Thread.sleep(250);
@@ -48,7 +48,6 @@ public class MyThread implements Runnable {
     //stop the thread.
     synchronized void mystop() {
         stopped = true;
-
         //The following ensures that a suspended thread can be stopped.
         suspended = false;
         notify();
@@ -91,7 +90,8 @@ class Suspend {
 
             mt1.mysuspend();
             System.out.println("Suspending thread.");
-            Thread.sleep(1000);
+            mt1.mystop();
+
         } catch (InterruptedException exc) {
             System.out.println("Main thread interrupted.");
         }
