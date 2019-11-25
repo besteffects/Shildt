@@ -16,7 +16,9 @@ class EnumDemo2 {
         for (Transport t : allTransports) {
             System.out.println(t);
         }
-
+  /* allTransports can be eliminated by following code:
+  for(Transport s :Transport.values()){
+  System.ou.println(t)  */
         System.out.println();
 
         //use valueOf()
