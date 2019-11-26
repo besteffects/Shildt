@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter12/enumeration/constructor/Transport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter12/enumeration/methods/Transport.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,15 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/packages/bookpack/Book.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/recursion/Factorial.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -68,7 +59,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter12/enumeration/constructor/Transport.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
@@ -77,6 +68,15 @@
                 <element signature="e#383#384#0" expanded="true" />
                 <element signature="e#449#450#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter12/enumeration/methods/Transport.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -131,8 +131,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -160,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/IO/ReadBytes.java" />
         <option value="$PROJECT_DIR$/src/IO/WriteDemo.java" />
         <option value="$PROJECT_DIR$/src/IO/bytes/WriteDemo.java" />
         <option value="$PROJECT_DIR$/src/IO/bytes/ShowFile.java" />
@@ -211,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/chapter12/enumeration/Transport.java" />
         <option value="$PROJECT_DIR$/src/chapter12/enumeration/valueOf/Transport.java" />
         <option value="$PROJECT_DIR$/src/chapter12/enumeration/constructor/Transport.java" />
+        <option value="$PROJECT_DIR$/src/chapter12/enumeration/methods/Transport.java" />
       </list>
     </option>
   </component>
@@ -263,7 +263,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chapter12" type="462c0819:PsiDirectoryNode" />
               <item name="enumeration" type="462c0819:PsiDirectoryNode" />
-              <item name="constructor" type="462c0819:PsiDirectoryNode" />
+              <item name="methods" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
@@ -338,20 +338,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.EnumDemo3">
-    <configuration name="DemoPwr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="this_keyword.DemoPwr" />
-      <module name="Java_Shildt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="this_keyword.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.EnumDemo4">
     <configuration name="DemoPwr1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="this_keyword.DemoPwr1" />
       <module name="Java_Shildt" />
@@ -404,6 +391,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EnumDemo4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter12.enumeration.methods.EnumDemo4" />
+      <module name="Java_Shildt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter12.enumeration.methods.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Strings" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="staticMod.Strings" />
       <module name="Java_Shildt" />
@@ -414,19 +414,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Strings" />
-      <item itemvalue="Application.DemoPwr" />
       <item itemvalue="Application.DemoPwr1" />
       <item itemvalue="Application.EnumDemo" />
       <item itemvalue="Application.EnumDemo2" />
       <item itemvalue="Application.EnumDemo3" />
+      <item itemvalue="Application.EnumDemo4" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.EnumDemo4" />
         <item itemvalue="Application.EnumDemo3" />
         <item itemvalue="Application.EnumDemo2" />
         <item itemvalue="Application.EnumDemo" />
         <item itemvalue="Application.DemoPwr1" />
-        <item itemvalue="Application.DemoPwr" />
       </list>
     </recent_temporary>
   </component>
@@ -464,7 +464,7 @@
       <window_info id="Favorites" order="6" sideWeight="0.50208336" side_tool="true" weight="0.17310444" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.12342216" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1741573" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3244382" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3988764" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -525,9 +525,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/testdata">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IO/bytes/ShowFile.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -928,6 +925,13 @@
             <element signature="e#383#384#0" expanded="true" />
             <element signature="e#449#450#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter12/enumeration/methods/Transport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
         </state>
       </provider>
     </entry>
