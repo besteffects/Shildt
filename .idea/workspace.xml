@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter12/typewrapper/manual/Wrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter12/typewrapper/autoboxing/AutoBox2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java_Shildt/META-INF/Java_Shildt.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter12/typewrapper/autoboxing/Autobox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter12/typewrapper/autoboxing/Autobox.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,24 +24,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter12/enumeration/Transport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="47" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="47" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter12/enumeration/valueOf/Transport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter12/enumeration/constructor/Transport.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,11 +67,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter12/typewrapper/manual/Wrap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="45">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter12/typewrapper/autoboxing/Autobox.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter12/typewrapper/autoboxing/AutoBox2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+              <folding>
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#268#269#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#369#370#0" expanded="true" />
+                <element signature="e#434#435#0" expanded="true" />
+                <element signature="e#462#463#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -173,9 +181,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/IO/bytes/ShowFile.java" />
-        <option value="$PROJECT_DIR$/src/IO/bytes/ShowfileReworked.java" />
-        <option value="$PROJECT_DIR$/src/IO/bytes/Showfile1.java" />
         <option value="$PROJECT_DIR$/src/IO/bytes/xxzx.java" />
         <option value="$PROJECT_DIR$/src/IO/bytes/CopyFile.java" />
         <option value="$PROJECT_DIR$/src/IO/bytes/zx.java" />
@@ -223,7 +228,10 @@
         <option value="$PROJECT_DIR$/src/chapter12/enumeration/constructor/Transport.java" />
         <option value="$PROJECT_DIR$/src/chapter12/enumeration/methods/Transport.java" />
         <option value="$PROJECT_DIR$/src/chapter12/enumeration/TrafficLightDemo.java" />
+        <option value="$PROJECT_DIR$/src/chapter12/typewrapper/manual/manual/Wrap.java" />
         <option value="$PROJECT_DIR$/src/chapter12/typewrapper/manual/Wrap.java" />
+        <option value="$PROJECT_DIR$/src/chapter12/typewrapper/autoboxing/Autobox.java" />
+        <option value="$PROJECT_DIR$/src/chapter12/typewrapper/autoboxing/AutoBox2.java" />
       </list>
     </option>
   </component>
@@ -272,6 +280,22 @@
               <item name="Shildt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chapter12" type="462c0819:PsiDirectoryNode" />
+              <item name="typewrapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter12" type="462c0819:PsiDirectoryNode" />
+              <item name="typewrapper" type="462c0819:PsiDirectoryNode" />
+              <item name="autoboxing" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter12" type="462c0819:PsiDirectoryNode" />
+              <item name="typewrapper" type="462c0819:PsiDirectoryNode" />
               <item name="manual" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -349,13 +373,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Wrap">
-    <configuration name="EnumDemo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter12.enumeration.valueOf.EnumDemo2" />
+  <component name="RunManager" selected="Application.AutoBox2">
+    <configuration name="AutoBox2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter12.typewrapper.autoboxing.AutoBox2" />
       <module name="Java_Shildt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter12.enumeration.valueOf.*" />
+          <option name="PATTERN" value="chapter12.typewrapper.autoboxing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -363,12 +387,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EnumDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter12.enumeration.constructor.EnumDemo3" />
+    <configuration name="Autobox" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter12.typewrapper.autoboxing.Autobox" />
       <module name="Java_Shildt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter12.enumeration.constructor.*" />
+          <option name="PATTERN" value="chapter12.typewrapper.autoboxing.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -411,11 +435,11 @@
       </method>
     </configuration>
     <configuration name="Wrap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter12.typewrapper.manual.Wrap" />
+      <option name="MAIN_CLASS_NAME" value="chapter12.typewrapper.manual.manual.Wrap" />
       <module name="Java_Shildt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter12.typewrapper.manual.*" />
+          <option name="PATTERN" value="chapter12.typewrapper.manual.manual.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -425,19 +449,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Strings" />
-      <item itemvalue="Application.EnumDemo2" />
-      <item itemvalue="Application.EnumDemo3" />
       <item itemvalue="Application.EnumDemo4" />
       <item itemvalue="Application.TrafficLightDemo" />
       <item itemvalue="Application.Wrap" />
+      <item itemvalue="Application.Autobox" />
+      <item itemvalue="Application.AutoBox2" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AutoBox2" />
+        <item itemvalue="Application.Autobox" />
         <item itemvalue="Application.Wrap" />
         <item itemvalue="Application.TrafficLightDemo" />
         <item itemvalue="Application.EnumDemo4" />
-        <item itemvalue="Application.EnumDemo3" />
-        <item itemvalue="Application.EnumDemo2" />
       </list>
     </recent_temporary>
   </component>
@@ -537,20 +561,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/inheritance/abstractClasses/TwoDShape7.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1120">
-          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/inheritance/final_mod/A.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IO/bytes/CompFiles.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
@@ -951,8 +961,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter12/typewrapper/manual/Wrap.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="45">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter12/typewrapper/autoboxing/Autobox.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter12/typewrapper/autoboxing/AutoBox2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="29" column="25" lean-forward="true" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="25" />
+          <folding>
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#268#269#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#369#370#0" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#462#463#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
