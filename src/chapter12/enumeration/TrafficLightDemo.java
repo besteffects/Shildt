@@ -1,35 +1,47 @@
 package chapter12.enumeration;
 
-import javax.swing.table.TableRowSorter;
+//A simulation of a traffic light that uses
+//an enumeration to describe the light's color.
 
 class TrafficLightDemo {
+    public static void main(String[] args) {
+        TrafficLightSimulator t1 = new TrafficLightSimulator(TrafficLightColor.GREEN);
+        Thread thrd = new Thread(t1);
+        thrd.start();
+
+        for (int i = 0; i < 9; i++) {
+            System.out.println(t1.getColor());
+            t1.waitForChange();
+        }
+        t1.cancel();
+    }
 }
 
 //An enumeration of the colors of a traffic light
-enum TrafficLightColor{
+enum TrafficLightColor {
     RED, GREEN, YELLOW
 }
 
 //A computerized traffic light
-class TrafficLightSimulator implements Runnable{
+class TrafficLightSimulator implements Runnable {
     private TrafficLightColor tlc; //holds the traffic light color
     private boolean stop = false; //set to true to stop the simulation
     private boolean changed = false; //true when the light has changed
 
-    TrafficLightSimulator (TrafficLightColor init){
-        tlc=init;
+    TrafficLightSimulator(TrafficLightColor init) {
+        tlc = init;
     }
 
-    TrafficLightSimulator (){
-        tlc=TrafficLightColor.RED;
+    TrafficLightSimulator() {
+        tlc = TrafficLightColor.RED;
     }
 
 
     // Start up the light.
-    public void run(){
-        while (!stop){
-            try{
-                switch (tlc){
+    public void run() {
+        while (!stop) {
+            try {
+                switch (tlc) {
                     case GREEN:
                         Thread.sleep(10000); //green for 10 seconds
                         break;
@@ -40,27 +52,49 @@ class TrafficLightSimulator implements Runnable{
                         Thread.sleep(12000);
                         break;
                 }
-            } catch (InterruptedException exc){
+            } catch (InterruptedException exc) {
                 System.out.println(exc);
             }
             changeColor();
         }
     }
 
+    //Change color
     synchronized void changeColor() {
-        switch (tlc){
+        switch (tlc) {
             case RED:
-                tlc=TrafficLightColor.GREEN;
+                tlc = TrafficLightColor.GREEN;
                 break;
             case YELLOW:
-                tlc=TrafficLightColor.RED;
+                tlc = TrafficLightColor.RED;
                 break;
             case GREEN:
-                tlc= TrafficLightColor.YELLOW;
+                tlc = TrafficLightColor.YELLOW;
         }
-        changed=true;
+        changed = true;
         notify(); //signal that the light has changed
     }
 
+    //wait until a light change occurs
+    synchronized void waitForChange() {
+        try {
+            while (!changed) {
+                wait(); //wait for light to change
+            }
+            changed = false;
+        } catch (InterruptedException exc) {
+            System.out.println(exc);
+        }
+    }
+
+    //Return current color
+    synchronized TrafficLightColor getColor() {
+        return tlc;
+    }
+
+    //Stop the traffic light.
+    synchronized void cancel() {
+        stop = true;
+    }
 
 }
