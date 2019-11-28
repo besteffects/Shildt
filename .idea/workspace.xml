@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/chapter12/typewrapper/autoboxing/AutoBox3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter12/typewrapper/autoboxing/AutoBox3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter12/staticImport/Quadratic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -22,15 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter12/enumeration/methods/Transport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="58" selection-start-line="31" selection-start-column="58" selection-end-line="31" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter12/enumeration/TrafficLightDemo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -82,11 +74,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter12/typewrapper/autoboxing/AutoBox3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+            <state relative-caret-position="45">
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter12/staticImport/Quadratic.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
             </state>
           </provider>
         </entry>
@@ -170,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/IO/bytes/CopyFile.java" />
         <option value="$PROJECT_DIR$/src/IO/bytes/zx.java" />
         <option value="$PROJECT_DIR$/src/IO/bytes/xc.java" />
         <option value="$PROJECT_DIR$/src/IO/bytes/ShowFile2.java" />
@@ -221,6 +221,7 @@
         <option value="$PROJECT_DIR$/src/chapter12/typewrapper/autoboxing/Autobox.java" />
         <option value="$PROJECT_DIR$/src/chapter12/typewrapper/autoboxing/AutoBox2.java" />
         <option value="$PROJECT_DIR$/src/chapter12/typewrapper/autoboxing/AutoBox3.java" />
+        <option value="$PROJECT_DIR$/src/chapter12/staticImport/Quadratic.java" />
       </list>
     </option>
   </component>
@@ -269,7 +270,7 @@
               <item name="Shildt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chapter12" type="462c0819:PsiDirectoryNode" />
-              <item name="typewrapper" type="462c0819:PsiDirectoryNode" />
+              <item name="staticImport" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
@@ -277,7 +278,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="chapter12" type="462c0819:PsiDirectoryNode" />
               <item name="typewrapper" type="462c0819:PsiDirectoryNode" />
-              <item name="autoboxing" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
@@ -362,7 +362,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.AutoBox3">
+  <component name="RunManager" selected="Application.Quadratic">
     <configuration name="AutoBox2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter12.typewrapper.autoboxing.AutoBox2" />
       <module name="Java_Shildt" />
@@ -402,23 +402,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Strings" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="staticMod.Strings" />
+    <configuration name="Quadratic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter12.staticImport.Quadratic" />
       <module name="Java_Shildt" />
-      <option name="PROGRAM_PARAMETERS" value="Mary" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter12.staticImport.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrafficLightDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter12.enumeration.TrafficLightDemo" />
+    <configuration name="Strings" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="staticMod.Strings" />
       <module name="Java_Shildt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter12.enumeration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <option name="PROGRAM_PARAMETERS" value="Mary" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -438,19 +438,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Strings" />
-      <item itemvalue="Application.TrafficLightDemo" />
       <item itemvalue="Application.Wrap" />
       <item itemvalue="Application.Autobox" />
       <item itemvalue="Application.AutoBox2" />
       <item itemvalue="Application.AutoBox3" />
+      <item itemvalue="Application.Quadratic" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Quadratic" />
         <item itemvalue="Application.AutoBox3" />
         <item itemvalue="Application.AutoBox2" />
         <item itemvalue="Application.Autobox" />
         <item itemvalue="Application.Wrap" />
-        <item itemvalue="Application.TrafficLightDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -550,16 +550,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/IO/bytes/CopyFile2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/IO/bytes/RWData.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="122">
@@ -966,8 +956,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter12/typewrapper/autoboxing/AutoBox3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="26" column="53" selection-start-line="26" selection-start-column="53" selection-end-line="26" selection-end-column="53" />
+        <state relative-caret-position="45">
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter12/staticImport/Quadratic.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="50" selection-start-line="19" selection-start-column="50" selection-end-line="19" selection-end-column="50" />
         </state>
       </provider>
     </entry>
