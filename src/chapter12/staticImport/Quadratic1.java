@@ -1,7 +1,10 @@
 package chapter12.staticImport;
+//Use static import to bring sqrt() and pow() into view
 
-//Find the solutions to a quadratic equation
-class Quadratic {
+import static java.lang.Math.pow;
+import static java.lang.Math.sqrt;
+
+class Quadratic1 {
     public static void main(String[] args) {
         //a,b and c represent the coefficients in the quadratic equation:ax2 + bx + c=0
         double a, b, c, x;
@@ -12,11 +15,11 @@ class Quadratic {
         c = -3;
 
         //Find first solution
-        x = (-b + Math.sqrt(Math.pow(b, 2) - 4 * a * c)) / (2 * a);
+        x = (-b + sqrt(pow(b, 2) - 4 * a * c)) / (2 * a);
         System.out.println("First solution: " + x);
 
         //Find second solution.
-        x = (-b - Math.sqrt(Math.pow(b, 2) - 4 * a * c) / (2 * a));
+        x = (-b - sqrt(pow(b, 2) - 4 * a * c)) / (2 * a);
         System.out.println("Second solution: " + x);
     }
 }
