@@ -19,7 +19,11 @@ class AutoBox3 {
         System.out.println("After iOb += 10: " + iOb);
 
         //Here, iOb is unboxed, the expression is evaluated, and the result is reboxed and assigned to iOb2
-        iOb2=iOb+(iOb/3);
+        iOb2 = iOb + (iOb / 3);
         System.out.println("iOb2 after expression: " + iOb2);
+
+        //The same expression is evaluated, but the result is not reboxed
+        i = iOb + (iOb / 3);
+        System.out.println("i after expression: " + i);
     }
 }
