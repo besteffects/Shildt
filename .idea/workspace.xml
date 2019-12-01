@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter13/generics/boundedTypes/NumericFns.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter13/generics/boundedTypes/NumericFns.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter13/generics/boundedTypes/NumericFns.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,12 +64,14 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/chapter13/generics/boundedTypes/NumericFns.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+            <state relative-caret-position="460">
+              <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
               <folding>
                 <element signature="e#313#314#0" expanded="true" />
                 <element signature="e#413#414#0" expanded="true" />
                 <element signature="e#535#536#0" expanded="true" />
+                <element signature="e#688#697#0" expanded="true" />
+                <element signature="e#1033#1041#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -79,7 +81,7 @@
         <entry file="file://$PROJECT_DIR$/src/chapter12/enumeration/constructor/Transport.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
-              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
               <folding>
                 <element signature="e#338#339#0" expanded="true" />
                 <element signature="e#383#384#0" expanded="true" />
@@ -295,19 +297,6 @@
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
               <item name="Shildt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="generics" type="462c0819:PsiDirectoryNode" />
-              <item name="TwoGen.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
-            </path>
-            <path>
-              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="bookpack" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -379,7 +368,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GenDemo">
+  <component name="RunManager" selected="Application.BoundsDemo">
     <configuration name="AnnoDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter12.annotations.AnnoDemo" />
       <module name="Java_Shildt" />
@@ -393,8 +382,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoBox2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter12.typewrapper.autoboxing.AutoBox2" />
+    <configuration name="AutoBox3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter12.typewrapper.autoboxing.AutoBox3" />
       <module name="Java_Shildt" />
       <extension name="coverage">
         <pattern>
@@ -406,12 +395,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AutoBox3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter12.typewrapper.autoboxing.AutoBox3" />
+    <configuration name="BoundsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter13.generics.boundedTypes.BoundsDemo" />
       <module name="Java_Shildt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter12.typewrapper.autoboxing.*" />
+          <option name="PATTERN" value="chapter13.generics.boundedTypes.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -455,19 +444,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Strings" />
-      <item itemvalue="Application.AutoBox2" />
       <item itemvalue="Application.AutoBox3" />
       <item itemvalue="Application.Quadratic" />
       <item itemvalue="Application.AnnoDemo" />
       <item itemvalue="Application.GenDemo" />
+      <item itemvalue="Application.BoundsDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BoundsDemo" />
         <item itemvalue="Application.GenDemo" />
         <item itemvalue="Application.AnnoDemo" />
         <item itemvalue="Application.Quadratic" />
         <item itemvalue="Application.AutoBox3" />
-        <item itemvalue="Application.AutoBox2" />
       </list>
     </recent_temporary>
   </component>
@@ -949,7 +938,7 @@
     <entry file="file://$PROJECT_DIR$/src/chapter12/enumeration/constructor/Transport.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
           <folding>
             <element signature="e#338#339#0" expanded="true" />
             <element signature="e#383#384#0" expanded="true" />
@@ -993,12 +982,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter13/generics/boundedTypes/NumericFns.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        <state relative-caret-position="460">
+          <caret line="41" column="30" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
           <folding>
             <element signature="e#313#314#0" expanded="true" />
             <element signature="e#413#414#0" expanded="true" />
             <element signature="e#535#536#0" expanded="true" />
+            <element signature="e#688#697#0" expanded="true" />
+            <element signature="e#1033#1041#0" expanded="true" />
           </folding>
         </state>
       </provider>
