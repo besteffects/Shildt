@@ -1,6 +1,6 @@
 package exceptions.queue;
 
-public class QueueEmptyException extends Exception {
+ class QueueEmptyException extends Exception {
     public String toString() {
         return "\nQueue is empty";
     }

@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter13/generics/interfaces/Containment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter13/generics/QueueImp/GenQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter13/generics/QueueImp/IGenQ.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter13/generics/QueueImp/QueueEmptyException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter13/generics/QueueImp/QueueFullException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter13/generics/interfaces/Containment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter13/generics/interfaces/Containment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/queue/QueueEmptyException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/queue/QueueEmptyException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/queue/QueueFullException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/queue/QueueFullException.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,60 +29,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter12/typewrapper/autoboxing/Autobox.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter13/generics/Gen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-314">
-              <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-              <folding>
-                <element signature="e#328#329#0" expanded="true" />
-                <element signature="e#386#387#0" expanded="true" />
-                <element signature="e#508#509#0" expanded="true" />
-                <element signature="e#1247#1255#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter13/generics/TwoGen.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="41" column="25" selection-start-line="41" selection-start-column="25" selection-end-line="41" selection-end-column="25" />
-              <folding>
-                <element signature="e#544#545#0" expanded="true" />
-                <element signature="e#588#589#0" expanded="true" />
-                <element signature="e#720#736#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter13/generics/boundedTypes/NumericFns.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="44" column="66" selection-start-line="44" selection-start-column="66" selection-end-line="44" selection-end-column="66" />
-              <folding>
-                <element signature="e#313#314#0" expanded="true" />
-                <element signature="e#413#414#0" expanded="true" />
-                <element signature="e#535#536#0" expanded="true" />
-                <element signature="e#688#697#0" expanded="true" />
-                <element signature="e#1033#1041#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter13/generics/wildcards/NumericFns.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -115,43 +67,85 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter13/generics/interfaces/Containment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="160">
+              <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
               <folding>
-                <element signature="e#594#595#0" expanded="true" />
+                <element signature="e#595#596#0" expanded="true" />
                 <element signature="e#916#925#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter12/enumeration/constructor/Transport.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter13/generics/QueueImp/IGenQ.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            <state relative-caret-position="135">
+              <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter13/generics/QueueImp/QueueFullException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
               <folding>
-                <element signature="e#338#339#0" expanded="true" />
-                <element signature="e#383#384#0" expanded="true" />
-                <element signature="e#405#406#0" expanded="true" />
-                <element signature="e#449#450#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#221#222#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter12/annotations/MyClass.java">
+        <entry file="file://$PROJECT_DIR$/src/chapter13/generics/QueueImp/QueueEmptyException.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="21" column="41" selection-start-line="21" selection-start-column="41" selection-end-line="21" selection-end-column="41" />
+            <state relative-caret-position="60">
+              <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
               <folding>
-                <element signature="e#165#166#0" expanded="true" />
+                <element signature="e#149#150#0" expanded="true" />
+                <element signature="e#173#174#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter13/generics/QueueImp/GenQueue.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exceptions/queue/QueueFullException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+              <folding>
+                <element signature="e#154#155#0" expanded="true" />
+                <element signature="e#176#177#0" expanded="true" />
+                <element signature="e#206#207#0" expanded="true" />
                 <element signature="e#270#271#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exceptions/queue/QueueEmptyException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -191,12 +185,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/IO/chars/KtoD.java" />
-        <option value="$PROJECT_DIR$/src/IO/chars/KtoD_FileWriter.java" />
-        <option value="$PROJECT_DIR$/src/IO/chars/DtoS_FileReader.java" />
-        <option value="$PROJECT_DIR$/src/IO/typeWrappers/AvgNums.java" />
-        <option value="$PROJECT_DIR$/src/IO/typeWrappers/Help.java" />
-        <option value="$PROJECT_DIR$/src/IO/Help.java" />
         <option value="$PROJECT_DIR$/src/multithreading/MyThread.java" />
         <option value="$PROJECT_DIR$/src/multithreading/MyThread1.java" />
         <option value="$PROJECT_DIR$/src/multithreading/ExtendThread.java" />
@@ -242,6 +230,12 @@
         <option value="$PROJECT_DIR$/src/chapter13/generics/methods/GenericMethodDemo.java" />
         <option value="$PROJECT_DIR$/src/chapter13/generics/constructors/Summation.java" />
         <option value="$PROJECT_DIR$/src/chapter13/generics/interfaces/Containment.java" />
+        <option value="$PROJECT_DIR$/src/exceptions/queue/QueueEmptyException.java" />
+        <option value="$PROJECT_DIR$/src/exceptions/queue/QueueFullException.java" />
+        <option value="$PROJECT_DIR$/src/chapter13/generics/QueueImp/QueueFullException.java" />
+        <option value="$PROJECT_DIR$/src/chapter13/generics/QueueImp/QueueEmptyException.java" />
+        <option value="$PROJECT_DIR$/src/chapter13/generics/QueueImp/GenQueue.java" />
+        <option value="$PROJECT_DIR$/src/chapter13/generics/QueueImp/IGenQ.java" />
       </list>
     </option>
   </component>
@@ -284,7 +278,20 @@
               <item name="Shildt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="generics" type="462c0819:PsiDirectoryNode" />
-              <item name="interfaces" type="462c0819:PsiDirectoryNode" />
+              <item name="QueueImp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="exceptions" type="462c0819:PsiDirectoryNode" />
+              <item name="queue" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
@@ -362,7 +369,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GenConsDemo">
+  <component name="RunManager" selected="Application.GenIFDemo">
     <configuration name="BoundsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter13.generics.boundedTypes.BoundsDemo" />
       <module name="Java_Shildt" />
@@ -389,12 +396,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter13.generics.GenDemo" />
+    <configuration name="GenIFDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter13.generics.interfaces.GenIFDemo" />
       <module name="Java_Shildt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter13.generics.*" />
+          <option name="PATTERN" value="chapter13.generics.interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -438,19 +445,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Strings" />
-      <item itemvalue="Application.GenDemo" />
       <item itemvalue="Application.BoundsDemo" />
       <item itemvalue="Application.WildcardDemo" />
       <item itemvalue="Application.GenericMethodDemo" />
       <item itemvalue="Application.GenConsDemo" />
+      <item itemvalue="Application.GenIFDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenIFDemo" />
         <item itemvalue="Application.GenConsDemo" />
         <item itemvalue="Application.GenericMethodDemo" />
         <item itemvalue="Application.WildcardDemo" />
         <item itemvalue="Application.BoundsDemo" />
-        <item itemvalue="Application.GenDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -550,53 +557,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/IO/typeWrappers/AvgNums.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="16" column="51" selection-start-line="16" selection-start-column="51" selection-end-line="16" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/IO/Help.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="64" column="6" selection-start-line="64" selection-start-column="6" selection-end-line="64" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="827" column="16" selection-start-line="827" selection-start-column="16" selection-end-line="827" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk-13.0.1.jdk/Contents/Home/lib/src.zip!/java.base/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/multithreading/synchronizarion/blocks.java" />
-    <entry file="file://$PROJECT_DIR$/src/multithreading/MyThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
-          <folding>
-            <element signature="e#209#210#0" expanded="true" />
-            <element signature="e#239#240#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/multithreading/synchronizarion/waitAndNotify/MyThread1.java" />
     <entry file="file://$PROJECT_DIR$/src/multithreading/synchronizarion/blocks/SumArray.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -978,12 +938,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter13/generics/interfaces/Containment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="160">
+          <caret line="11" column="72" selection-start-line="11" selection-start-column="72" selection-end-line="11" selection-end-column="72" />
           <folding>
-            <element signature="e#594#595#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
             <element signature="e#916#925#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exceptions/queue/QueueEmptyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exceptions/queue/QueueFullException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding>
+            <element signature="e#154#155#0" expanded="true" />
+            <element signature="e#176#177#0" expanded="true" />
+            <element signature="e#206#207#0" expanded="true" />
+            <element signature="e#270#271#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter13/generics/QueueImp/QueueFullException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#221#222#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter13/generics/QueueImp/QueueEmptyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="35" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+          <folding>
+            <element signature="e#149#150#0" expanded="true" />
+            <element signature="e#173#174#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter13/generics/QueueImp/GenQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter13/generics/QueueImp/IGenQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
         </state>
       </provider>
     </entry>

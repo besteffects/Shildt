@@ -9,7 +9,7 @@ interface Containment<T> {
 }
 
 //Implement Containment using an array to hold the values
-class MyClass<T> implements Containment<T> { //Any class that implement a generic interface must itself be generic
+class MyClass<T> implements Containment<T> { //Any class that implements a generic interface must itself be generic
     T[] arrayRef;
 
     MyClass(T[] o) {
