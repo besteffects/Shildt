@@ -32,7 +32,7 @@ class LambdaDemo2 {
         System.out.println();
 
         //This labmda expression returns true if the absolute values of the arguments are equal.
-        NumericTest absEqual = (n, m) -> (n < 0 ? -n * n : n) == (m < 0 ? -m : m);
+        NumericTest absEqual = (n, m) -> (n < 0 ? -n : n) == (m < 0 ? -m : m);
         if (absEqual.test(4, -4)) {
             System.out.println("Absolute values of 4 and -4 are equal.");
         }
