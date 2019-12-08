@@ -8,12 +8,27 @@ interface MyValue {
 }
 
 //Another functional interface.
-interface MyParamValue{
+interface MyParamValue {
     double getValue(double v);
 }
 
-class LambdaDemo{
+class LambdaDemo {
     public static void main(String[] args) {
         MyValue myVal; //declare an interface reference
+
+        /*
+        Here, the lambda expression is simply a constant expression.
+        When it is assigned to myVal, a class instance is constructed in which the lambda expression implements
+        the getValue() method in MyValue.*/
+        myVal = () -> 98.6; //a simple lambda expression
+
+        /*
+        Now, create a parametrized lambda expression and assign it to a MyParamValue reference. This lambda expression
+        returns the reciprocal of its argument.*/
+        MyParamValue myPVal = (n) -> 1.0 / n; // a lambda expression that has a parameter
+
+        //Call getValue(v) through the myPval reference
+        System.out.println("Reciprocal of 4 is " + myPVal.getValue(4.0));
+        System.out.println("Reciprocal of 8 is " + myPVal.getValue(8.0));
     }
 }
