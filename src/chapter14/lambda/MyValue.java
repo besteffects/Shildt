@@ -30,5 +30,10 @@ class LambdaDemo {
         //Call getValue(v) through the myPval reference
         System.out.println("Reciprocal of 4 is " + myPVal.getValue(4.0));
         System.out.println("Reciprocal of 8 is " + myPVal.getValue(8.0));
+
+        // A lambda expression must be compatible with the method defined by the functional interface. Therefore,
+        //these won't work:
+        // myVal =()->"three"; //Error! String not compatible with double!
+        // myPVal=()->Math.random(); //Error! Parameter required!
     }
 }
