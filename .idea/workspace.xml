@@ -85,11 +85,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter14/lambda/methodReferences/instanceMethods/constructorReferences/ConstructorRefDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+            <state relative-caret-position="240">
+              <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
               <folding>
                 <element signature="e#392#393#0" expanded="true" />
                 <element signature="e#472#473#0" expanded="true" />
@@ -99,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter14/lambda/fewLambda/StringsTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter14/lambda/predefinedFunctInterfaces/UsePredicateInterface.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="10" selection-start-line="3" selection-start-column="10" selection-end-line="3" selection-end-column="10" />
+            <state relative-caret-position="135">
+              <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -147,8 +147,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -176,7 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/multithreading/usingMainThread/UseMain.java" />
         <option value="$PROJECT_DIR$/src/bookpack/Book.java" />
         <option value="$PROJECT_DIR$/src/packages/bookpack/Book.java" />
         <option value="$PROJECT_DIR$/src/packages/bookpack/bookpackext/useBook.java" />
@@ -227,6 +226,7 @@
         <option value="$PROJECT_DIR$/src/chapter14/lambda/methodReferences/instanceMethods/MyIntNum.java" />
         <option value="$PROJECT_DIR$/src/chapter14/lambda/methodReferences/instanceMethods/toAllInstances/MyIntNumPredicate.java" />
         <option value="$PROJECT_DIR$/src/chapter14/lambda/methodReferences/instanceMethods/constructorReferences/MyFunc.java" />
+        <option value="$PROJECT_DIR$/src/chapter14/lambda/predefinedFunctInterfaces/UsePredicateInterface.java" />
       </list>
     </option>
   </component>
@@ -321,7 +321,14 @@
               <item name="Shildt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lambda" type="462c0819:PsiDirectoryNode" />
-              <item name="methodReferences" type="462c0819:PsiDirectoryNode" />
+              <item name="genericFunctInterfaces" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="localVarCapture" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
@@ -329,33 +336,20 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lambda" type="462c0819:PsiDirectoryNode" />
               <item name="methodReferences" type="462c0819:PsiDirectoryNode" />
-              <item name="instanceMethods" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
               <item name="Shildt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lambda" type="462c0819:PsiDirectoryNode" />
-              <item name="methodReferences" type="462c0819:PsiDirectoryNode" />
-              <item name="instanceMethods" type="462c0819:PsiDirectoryNode" />
-              <item name="constructorReferences" type="462c0819:PsiDirectoryNode" />
+              <item name="predefinedFunctInterfaces" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
               <item name="Shildt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lambda" type="462c0819:PsiDirectoryNode" />
-              <item name="methodReferences" type="462c0819:PsiDirectoryNode" />
-              <item name="staticMethods" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="lambda" type="462c0819:PsiDirectoryNode" />
-              <item name="methodReferences" type="462c0819:PsiDirectoryNode" />
-              <item name="staticMethods" type="462c0819:PsiDirectoryNode" />
-              <item name="intPredicate.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+              <item name="throwingExceptions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
@@ -400,26 +394,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ConstructorRefDemo">
+  <component name="RunManager" selected="Application.UsePredicateInterface">
     <configuration name="ConstructorRefDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter14.lambda.methodReferences.instanceMethods.constructorReferences.ConstructorRefDemo" />
       <module name="Java_Shildt" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="chapter14.lambda.methodReferences.instanceMethods.constructorReferences.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LambdaExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter14.lambda.throwingExceptions.LambdaExceptionDemo" />
-      <module name="Java_Shildt" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="chapter14.lambda.throwingExceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -474,21 +455,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UsePredicateInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter14.lambda.predefinedFunctInterfaces.UsePredicateInterface" />
+      <module name="Java_Shildt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter14.lambda.predefinedFunctInterfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Strings" />
-      <item itemvalue="Application.LambdaExceptionDemo" />
       <item itemvalue="Application.MethodRefDemo" />
       <item itemvalue="Application.MethodRefDemo (1)" />
       <item itemvalue="Application.MethodRefDemo3" />
       <item itemvalue="Application.ConstructorRefDemo" />
+      <item itemvalue="Application.UsePredicateInterface" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.UsePredicateInterface" />
         <item itemvalue="Application.ConstructorRefDemo" />
         <item itemvalue="Application.MethodRefDemo3" />
         <item itemvalue="Application.MethodRefDemo (1)" />
         <item itemvalue="Application.MethodRefDemo" />
-        <item itemvalue="Application.LambdaExceptionDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -588,13 +582,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/multithreading/Priority.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/multithreading/suspendingThreads/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
@@ -1042,13 +1029,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/chapter14/lambda/methodReferences/instanceMethods/constructorReferences/ConstructorRefDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="5" lean-forward="true" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+        <state relative-caret-position="240">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
           <folding>
             <element signature="e#392#393#0" expanded="true" />
             <element signature="e#472#473#0" expanded="true" />
             <element signature="e#521#522#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter14/lambda/predefinedFunctInterfaces/UsePredicateInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="24" lean-forward="true" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
         </state>
       </provider>
     </entry>
