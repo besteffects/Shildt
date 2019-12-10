@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter14/lambda/throwingExceptions/LambdaExceptionDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,15 +20,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter14/lambda/genericFunctInterfaces/SomeTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="11" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter14/lambda/argument/LambdaArgumentDemo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,13 +68,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter14/lambda/throwingExceptions/LambdaExceptionDemo.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="270">
               <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter14/lambda/methodReferences/intPredicate.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="51" column="50" lean-forward="true" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
+              <folding>
+                <element signature="e#799#800#0" expanded="true" />
+                <element signature="e#933#934#0" expanded="true" />
+                <element signature="e#1244#1245#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -169,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/multithreading/synchronizarion/waitAndNotify/MyThread.java" />
         <option value="$PROJECT_DIR$/src/multithreading/synchronizarion/SumArray.java" />
         <option value="$PROJECT_DIR$/src/multithreading/synchronizarion/waitAndNotify/TickTock.java" />
         <option value="$PROJECT_DIR$/src/multithreading/suspendingThreads/MyThread.java" />
@@ -220,6 +221,7 @@
         <option value="$PROJECT_DIR$/src/chapter14/lambda/argument/LambdaArgumentDemo.java" />
         <option value="$PROJECT_DIR$/src/chapter14/lambda/localVarCapture/MyFunc.java" />
         <option value="$PROJECT_DIR$/src/chapter14/lambda/throwingExceptions/LambdaExceptionDemo.java" />
+        <option value="$PROJECT_DIR$/src/chapter14/lambda/methodReferences/intPredicate.java" />
       </list>
     </option>
   </component>
@@ -227,6 +229,9 @@
     <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="804" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -311,7 +316,7 @@
               <item name="Shildt" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lambda" type="462c0819:PsiDirectoryNode" />
-              <item name="throwingExceptions" type="462c0819:PsiDirectoryNode" />
+              <item name="methodReferences" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
@@ -356,7 +361,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LambdaExceptionDemo">
+  <component name="RunManager" selected="Application.MethodRefDemo">
     <configuration name="BlockLambdaDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter14.lambda.blockLambda.BlockLambdaDemo" />
       <module name="Java_Shildt" />
@@ -396,12 +401,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaDemo3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter14.lambda.fewLambda.LambdaDemo3" />
+    <configuration name="LambdaExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter14.lambda.throwingExceptions.LambdaExceptionDemo" />
       <module name="Java_Shildt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter14.lambda.fewLambda.*" />
+          <option name="PATTERN" value="chapter14.lambda.throwingExceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -409,12 +414,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LambdaExceptionDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter14.lambda.throwingExceptions.LambdaExceptionDemo" />
+    <configuration name="MethodRefDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter14.lambda.methodReferences.MethodRefDemo" />
       <module name="Java_Shildt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter14.lambda.throwingExceptions.*" />
+          <option name="PATTERN" value="chapter14.lambda.methodReferences.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -432,19 +437,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Strings" />
-      <item itemvalue="Application.LambdaDemo3" />
       <item itemvalue="Application.BlockLambdaDemo" />
       <item itemvalue="Application.GenericFunctionalInterfaceDemo" />
       <item itemvalue="Application.LambdaArgumentDemo" />
       <item itemvalue="Application.LambdaExceptionDemo" />
+      <item itemvalue="Application.MethodRefDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MethodRefDemo" />
         <item itemvalue="Application.LambdaExceptionDemo" />
         <item itemvalue="Application.LambdaArgumentDemo" />
         <item itemvalue="Application.GenericFunctionalInterfaceDemo" />
         <item itemvalue="Application.BlockLambdaDemo" />
-        <item itemvalue="Application.LambdaDemo3" />
       </list>
     </recent_temporary>
   </component>
@@ -544,13 +549,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/inheritance/TwoDShape1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="42" column="6" selection-start-line="42" selection-start-column="6" selection-end-line="42" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/inheritance/TwoDShape2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
@@ -982,6 +980,18 @@
           <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter14/lambda/methodReferences/intPredicate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="51" column="50" lean-forward="true" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
+          <folding>
+            <element signature="e#799#800#0" expanded="true" />
+            <element signature="e#933#934#0" expanded="true" />
+            <element signature="e#1244#1245#0" expanded="true" />
           </folding>
         </state>
       </provider>
