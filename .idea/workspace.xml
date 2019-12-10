@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="" />
+    <list default="true" id="96748139-c7b4-43c4-9280-f77507ec3b3d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter14/lambda/methodReferences/intPredicate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter14/lambda/methodReferences/staticMethods/intPredicate.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,19 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/chapter14/lambda/argument/LambdaArgumentDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-              <folding>
-                <element signature="e#496#497#0" expanded="true" />
-                <element signature="e#529#530#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/chapter14/lambda/localVarCapture/MyFunc.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -80,15 +70,31 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/chapter14/lambda/methodReferences/intPredicate.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/chapter14/lambda/methodReferences/staticMethods/intPredicate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="51" column="50" lean-forward="true" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
+            <state relative-caret-position="555">
+              <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
               <folding>
-                <element signature="e#799#800#0" expanded="true" />
-                <element signature="e#933#934#0" expanded="true" />
-                <element signature="e#1244#1245#0" expanded="true" />
+                <element signature="e#838#839#0" expanded="true" />
+                <element signature="e#972#973#0" expanded="true" />
+                <element signature="e#1283#1284#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/chapter14/lambda/methodReferences/instanceMethods/MyIntNum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="46" column="81" selection-start-line="46" selection-start-column="81" selection-end-line="46" selection-end-column="81" />
+              <folding>
+                <element signature="e#503#504#0" expanded="true" />
+                <element signature="e#524#525#0" expanded="true" />
+                <element signature="e#544#545#0" expanded="true" />
+                <element signature="e#568#569#0" expanded="true" />
+                <element signature="e#675#676#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -171,9 +177,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/multithreading/synchronizarion/SumArray.java" />
-        <option value="$PROJECT_DIR$/src/multithreading/synchronizarion/waitAndNotify/TickTock.java" />
-        <option value="$PROJECT_DIR$/src/multithreading/suspendingThreads/MyThread.java" />
         <option value="$PROJECT_DIR$/src/this_keyword/Pwr.java" />
         <option value="$PROJECT_DIR$/src/this_keyword/Pwr1.java" />
         <option value="$PROJECT_DIR$/src/multithreading/usingMainThread/UseMain.java" />
@@ -222,6 +225,9 @@
         <option value="$PROJECT_DIR$/src/chapter14/lambda/localVarCapture/MyFunc.java" />
         <option value="$PROJECT_DIR$/src/chapter14/lambda/throwingExceptions/LambdaExceptionDemo.java" />
         <option value="$PROJECT_DIR$/src/chapter14/lambda/methodReferences/intPredicate.java" />
+        <option value="$PROJECT_DIR$/src/chapter14/lambda/methodReferences/staticMethods/intPredicate.java" />
+        <option value="$PROJECT_DIR$/src/chapter14/lambda/methodReferences/instanceMethods/Inst.java" />
+        <option value="$PROJECT_DIR$/src/chapter14/lambda/methodReferences/instanceMethods/MyIntNum.java" />
       </list>
     </option>
   </component>
@@ -317,6 +323,31 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lambda" type="462c0819:PsiDirectoryNode" />
               <item name="methodReferences" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="methodReferences" type="462c0819:PsiDirectoryNode" />
+              <item name="instanceMethods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="methodReferences" type="462c0819:PsiDirectoryNode" />
+              <item name="staticMethods" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Shildt" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lambda" type="462c0819:PsiDirectoryNode" />
+              <item name="methodReferences" type="462c0819:PsiDirectoryNode" />
+              <item name="staticMethods" type="462c0819:PsiDirectoryNode" />
+              <item name="intPredicate.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="Java_Shildt" type="b2602c69:ProjectViewProjectNode" />
@@ -419,7 +450,7 @@
       <module name="Java_Shildt" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter14.lambda.methodReferences.*" />
+          <option name="PATTERN" value="chapter14.lambda.methodReferences.staticMethods.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -479,7 +510,7 @@
     <frame x="0" y="23" width="1440" height="804" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.18669528" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49791667" visible="true" weight="0.18669528" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -488,8 +519,8 @@
       <window_info id="Favorites" order="6" sideWeight="0.50208336" side_tool="true" weight="0.17310444" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.12342216" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.2261236" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3988764" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2261236" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.123595506" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -549,13 +580,6 @@
     </SUITE>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/inheritance/TwoDShape2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/inheritance/TwoDShape3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="241">
@@ -984,14 +1008,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/chapter14/lambda/methodReferences/intPredicate.java">
+    <entry file="file://$PROJECT_DIR$/src/chapter14/lambda/methodReferences/staticMethods/intPredicate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="51" column="50" lean-forward="true" selection-start-line="51" selection-start-column="50" selection-end-line="51" selection-end-column="50" />
+        <state relative-caret-position="555">
+          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
           <folding>
-            <element signature="e#799#800#0" expanded="true" />
-            <element signature="e#933#934#0" expanded="true" />
-            <element signature="e#1244#1245#0" expanded="true" />
+            <element signature="e#838#839#0" expanded="true" />
+            <element signature="e#972#973#0" expanded="true" />
+            <element signature="e#1283#1284#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/chapter14/lambda/methodReferences/instanceMethods/MyIntNum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="81" selection-start-line="46" selection-start-column="81" selection-end-line="46" selection-end-column="81" />
+          <folding>
+            <element signature="e#503#504#0" expanded="true" />
+            <element signature="e#524#525#0" expanded="true" />
+            <element signature="e#544#545#0" expanded="true" />
+            <element signature="e#568#569#0" expanded="true" />
+            <element signature="e#675#676#0" expanded="true" />
           </folding>
         </state>
       </provider>

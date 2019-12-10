@@ -1,5 +1,7 @@
-package chapter14.lambda.methodReferences;
+package chapter14.lambda.methodReferences.staticMethods;
 //Demonstrate a method reference for a static method
+
+//className::methodName
 
 //A functional interface for numeric predicates that operate on integer values
 
