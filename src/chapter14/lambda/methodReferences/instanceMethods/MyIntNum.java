@@ -5,6 +5,9 @@ package chapter14.lambda.methodReferences.instanceMethods;
 import java.util.function.IntPredicate;
 
 //objRef::methodName
+//If you want to use with any object of the class use:
+// ClassName::instanceMethodName
+
 interface isPredicate {
     boolean test(int n);
 }
